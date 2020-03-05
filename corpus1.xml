@@ -1,0 +1,1760 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE teiCorpus SYSTEM "./tei_corpus.dtd">
+<teiCorpus>
+  <teiHeader>
+    <!--File description-->
+    <fileDesc>
+      <titleStmt>
+        <!--Title, author and encoding's responsable-->
+        <title>Corpus of reviews</title>
+        <author xml:id="auth">
+          <persName xml:lang="it">
+            <forename>Alessandro </forename>
+            <surname>Mazzeo</surname>
+          </persName>
+        </author>
+        <respStmt xml:id="AM">
+          <resp>Reviews taken by:</resp>
+          <persName>
+            <forename>Alessandro</forename>
+            <surname>Mazzeo</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <!--Information about editions-->
+      <editionStmt>
+        <p>1' edition <date>2019</date></p>
+      </editionStmt>
+      <!--Information about distribution-->
+      <publicationStmt>
+        <distributor>Alessandro Mazzeo</distributor>
+        <publisher>Alessandro Mazzeo</publisher>
+        <availability status="restricted">
+          <licence>Creative Commons 4.0 BY SA</licence>
+        </availability>
+      </publicationStmt>
+      <!--Information about the source where the content is taken-->
+      <sourceDesc>
+        <p>Born digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <!--Information about encoding-->
+    <encodingDesc>
+      <!--Project's purpose-->
+      <projectDesc>
+        <p> The project is a electronic corpus of reviews about products or services, taken from
+          e-commerce and others booking platform. </p>
+      </projectDesc>
+      <!--Declaration about common encoding editing-->
+      <editorialDecl>
+        <p>Every text element is original.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <!--Not bibliographic description: text language and text typology-->
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term>corpus</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="EN">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <TEI>
+    <!-- Reviews of a product -->
+    <teiHeader>
+      <!-- Product or service information -->
+      <fileDesc>
+        <titleStmt>
+          <title>Dell - Inspiron 15.6" Touch-Screen Laptop - Intel Core i3 - 8GB Memory - 128GB SSD
+            - Black</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>https://www.bestbuy.com/</distributor>
+          <publisher>bestbuy.com</publisher>
+          <pubPlace>U.S.A.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <!-- One review of the product or service inserted in teiHeader for this element TEI-->
+      <front>
+        <head>
+          <name type="author">BobS</name>
+          <title>Perfect for us as an in home email and web viewing</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>We were in the market to replace our 12 year old Dell laptop that was getting on in
+            years especially limited video capabilities. It came with Vista, was upgraded to W7,
+            then W8, then W10. When this new system was Black Friday priced it was a no brainer for
+            us. It starts up almost instantly speed tests three times faster the system it replaced.
+            Very happy with purchase,</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <!-- Another review of the product or service inserted in teiHeader-->
+      <front>
+        <head>
+          <name type="author">ezek</name>
+          <title>Amazing performance for the price</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I got it on an early black friday sale for $279.99, and paying this price for an i3+8GB
+            of RAM and the super fast boot up speed of an SSD is the best deal I could've ever
+            gotten. Better get it this 2k19 black friday if you are in need of a laptop that gives
+            you more than what you pay.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Neuro</name>
+          <title>Great Dell quality laptop</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great Dell laptop. The Core i3 makes a difference compared to other entry level chips.
+            The 8BG memory and the 128 SSD really helps speed the computer up. Other entry level
+            computers typically have 4GB. The touch screen is a bonus, however I rarely use the
+            feature. The Ethernet port is nice to have — I see many newer laptops getting rid of
+            network ports in favor of being thin or space. Excellent value.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Cstar</name>
+          <title>Great for the price</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Nice laptop for a teenager! And good price! Will be a great starter laptop</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">TechGeek56</name>
+          <title>Great Computer!! Hate the screen size</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I just purchased this computer today and I'm already liking it. Only thing I don't like
+            is the screen size but with the other things it has (128 SSD and 8GB RAM), it's real
+            easy to overlook. If you're looking for a good computer under 500.00, this is a really
+            good buy!!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">RiGaines</name>
+          <title>Good product</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great pc for on base in barracks. It’s light weight for me to carry to/from classes</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Angelsobe</name>
+          <title>Dell touch screen</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great computer for great price thanks Best Buy for your service and great price on your
+            products</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Spoiling</name>
+          <title>Good deal</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Speed is good easy to use and the touch screen is a bonus</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Samy</name>
+          <title>Best</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Dell been my favorite for ever and i will be with dell Best computers</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">jtyler</name>
+          <title>Highly recommend!</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This is a great laptop for the money, especially when it's on sale for under $300! It
+            does have a cheap feel to it but I think that’s an okay trade-off for the price. I found
+            the texture of the shell pretty interesting; it’s kind of like a rough plastic which
+            adds a good grip feeling for when you have to move it. The keyboard is nice to type on
+            and the track pad seems to be good quality. The in-line power brick is a nice compact
+            size which, to me, is a big plus. This Inspiron is also very thin considering the price,
+            and it's surprisingly lightweight. I was also pleased with the SD card slot included on
+            the side. I found the performance to be really good if you're just watching YouTube or
+            browsing the web. The 8th gen Intel i3 processor and 8GB of RAM is great for
+            low-demanding tasks similar to those. Playing 4K video on YouTube runs without a hitch
+            while only utilizing about 30% of the integrated Intel UHD Graphics 620 GPU. This would
+            be a great budget laptop for school or even work depending on what you do. I'm sure it
+            could run Microsoft Word or Excel without any problems. I was surprise at the lack of
+            bloatware that was preinstalled. Like other reviewers have noted, I did have to go
+            through the activation troubleshooter to activate the "home" version of Windows 10 to
+            change out of the Windows 10 S mode. One thing that bugs me about this laptop is the
+            lack of backlit keys. The screen displays a decent picture but I can still tell it’s a
+            lower resolution. I think 1920x1080 is the sweet spot for a 15 inch screen. The screen
+            also has a glossy finish which creates a lot of screen glare, especially in a bright
+            environment. It also lacks a removable battery which is a con for me; I like to remove
+            the battery when I know I'm going to leave it in one spot for a while. I would
+            definitely recommend this over any Chromebook though. Sure, there are better Windows
+            laptops out there but this one is hard to beat for the price!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">HardingN88</name>
+          <title>Great laptop</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Screen is very responsive, doesn't lag during normal operation, battery life is great.
+            Bought for my daughter for school and couldn't be more pleased.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Ironpump89</name>
+          <title>For the price it costs it is a decent laptop</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Pretty capable laptop. Touch screen is a plus and display feels good overall
+            quality</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Ariel</name>
+          <title>Good laptop for the price</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>So far no issues, fast and it had a very good price tag.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Prashi</name>
+          <title>Excellent configuration for the price</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Bought this on early black friday deal. Great configuration for the offer price.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Ozmaster</name>
+          <title>Good value</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Surprisingly fast overall. Fast boot-up. Surprisingly not filled with junk. Screen
+            resolution too low for text to look decent. Still good for the price.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">shashi</name>
+          <title>Always like Dell</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Best for casual browsing and beginner and best value.</p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Ad Astra BD [Blu-ray] [2019]</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>https://www.amazon.co.uk</distributor>
+          <publisher>amazon</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">The Movie Diorama</name>
+          <title>Ad Astra galactically depicts sorrow, proving that no one can hear you cry in
+            space. </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Ad Astra galactically depicts sorrow, proving that no one can hear you cry in space.
+            For the past few years, dramas set in the expansive dangers of space have been my bread
+            and butter. Devouring them during my annual breakfast as I purposefully starve myself
+            for the taste of space traversal. Every year, the likes 'Arrival', 'Blade Runner 2049',
+            'First Man', 'Interstellar' and my all-time favourite film 'Gravity', have secured
+            scores ranging from outstanding to perfect. Whilst Ad Astra may be tilting towards the
+            former adjective, it's still irrefutably one of the best films of the year thanks to
+            Gray's understanding, yet again, of what makes a character study captivating. After
+            unearthing the possibility that his missing father may still be alive, his astronaut son
+            travels across the Solar System in search for him and to unravel a mysterious power
+            surge phenomenon that threatens humanity's survival. Immediately, one thing I need to
+            brush off my chest is the horrendous marketing. This is not a sci-fi blockbuster. There
+            is limited "action". And if you're wanting the next 'Star Wars' or 'Avatar', then remove
+            yourself from the cinema and watch mind-numbing nonsense like 'Angel Has Fallen'
+            instead. This is a James Gray extravaganza. A meticulously woven character study,
+            harnessing melancholia to challenge an existential crisis. Thematically, Ad Astra's
+            premise bolsters a plethora of metaphorical imagery that divulges into the empirical
+            purpose of humanity. Majestic planets emitting every prismatic shade available, yet
+            emanating no emotional connectivity. The vacuous expansivity of space, marking
+            humanity's reflection on life as a mere speck of stardust. Worldly hostility reaching
+            the depths of our galaxy, hyperbolising the "world-eating" philosophy of our own
+            self-destruction as a species. The obsession to venture forth. Departing love, hate and
+            grief. Welcoming nothingness. Gray's space-opera is a sorrowful tale, intently focusing
+            on the pressures of a son following in the footsteps of his acclaimed father. A
+            patriarch of inspiration to many. Allowing a tangible tense bond to illuminate the stars
+            with despair and anguish. Pitt's universally nuanced performance brings forward stoic
+            mannerisms that allow McBride to feel these emotions. Minor glitches that break
+            character, such as slamming the wall in frustration, showcase the purity of humanity
+            within him. Gray encompasses the plot around McBride. The lunar pirate raid, mayday
+            rescue and crew brawl scenes, whilst inserting mainstream tendencies into a contemporary
+            drama, were emblems of McBride's emotions. Fear, rage and desperation respectively. A
+            series of gestures that, again, hark back to humanity's endurance. The mildly engaging
+            supporting cast, ranging from Jones, Sutherland and Negga, acting as stability for
+            McBride. Stepping stones allowing him to find his father, as if fate was dictating his
+            alignment. Narration, shifting between inner thoughts to exposition, was overused and
+            irked me with its basic functionality. Hoytema's cinematography could've elicited these
+            unnecessary lines of dialogue from his beautiful imagery. And beautiful just doesn't do
+            it justice. Immediately, from the iridescent opening shot, Hoytema takes hold. Utilising
+            colours and shadows to produce the incarnation of life, what it means to see. The blue
+            of Neptune, the red of Mars. Clashing tonalities resembling McBride's emotions.
+            Accompanied by Richter's euphoric score and the almost '2001' production design, and Ad
+            Astra is technically a masterful piece of art. Gray's conclusion is teetering on the
+            edge of underwhelming, for me atleast, with its rushed journey home that dissipated the
+            simmering sorrow built exquisitely beforehand. The ending I personally would've desired,
+            would be the ending no one wanted (but that's life I guess...). Regardless, the small
+            criticisms here and there are subject to change upon an inevitable rewatch. Gray is fast
+            becoming one of my favourite directors. He is a man who understands character. He
+            acknowledges the obsession of man. Amalgamating life's wondrously challenging hurdles
+            into singular expressive characters. Ad Astra's meditative and resonant pacing, whilst
+            is sure to put many viewers off, ensures that loss and grief are captured wherever a
+            soul may be. At home or in deep space. It never vanishes. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Rowena Hoseason</name>
+          <title>Intelligent life in outer space </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>AD ASTRA isn’t space fantasy or the wild west in orbit. It’s proper science fiction,
+            more like 2001 than Star Wars. We enjoyed it waaaaay more than First Man, Interstellar
+            or Gravity – perhaps because Brad Pitt’s brilliant performance is so perfectly
+            controlled, not muted or subdued, but as if all the emotional intensity is being
+            condensed within him… until it reaches critical mass. And the action sequences are
+            simply superb. Many movie car chases / fight scenes / set pieces tend to feel completely
+            unreal these days, thanks to ubiquitous CGI tweaking. It’s ironic, then, that the
+            completely unreal scenarios in Ad Astra, which involve space-walks and rockets firing
+            and lunar buggies, are completely convincing. It takes a lot to raise my pulse during a
+            film but I was utterly transfixed. And touched, too, by the protagonist’s philosophical
+            progress; his unresolved relationship with his father underpinning his (failing)
+            relationships with everyone else. All the supporting stars deserve applause for their
+            contributions – often oblique, almost out of sight, but massive in impact. I even
+            forgive the occasionally wobby science (because hey, it’s only a film). 9/10 </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Ratty</name>
+          <title>The search for intelligent life? </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The search for intelligent life; not in outer space but in the writers of the plot
+            line. I guest; however the plot line is somewhat simplistic and far fetched in parts.
+            I'd read critics are comparing it to '2001 A Space Odyssey '. Well I was sorely
+            disappointed in that. It's about as close to 2001 as The Lion King is to Hamlet. No with
+            2001 you're asking your self, all the way through what's all this means and afterwards
+            fans can discuss what each element signifide. Where as this is what you see. The story
+            is laid unambiguously out for you to easily follow. Brad Pitt's character (Roy McBride)
+            has lived his life as a astronaut who's, otherwise, glittering carrier as been
+            constantly eclipsed by the shadow of his fathers legendary carrier. His father
+            disappeared on the first and only deep space mission to the out reaches of the solar
+            system in the hope of finding evidence of extra terrestrial intelligent life some
+            sixteen years earlier. At the time of the movie Earth is hit by power surges that cause
+            power blackouts over the entire globe. On an analysis it is determined that these power
+            surges are bursts of antimatter and that if they continue they will eventually destroy
+            all life in the solar-system. They trace their origins to Neptune and realise that's
+            where McBride's dad was last known to have been before he disappeared and not only that
+            his spacecraft was powered by the only antimatter generator ever built. Two plus Two
+            equals McBride's dad is coursing the power surges. Roy McBride is sumound to travel to
+            Mars and there broadcast a signal to his dad in the hope of stopping the surges. McBride
+            broadcasts the message but goes off script and sends his own message, this gets him
+            taken off the mission so he goes rouge and hi jacks the spacecraft now being sent to
+            destroy his dad's craft. All very simplistic and comic book and a lot of the action
+            relies to much on exceptional convenience rather than timing and skill. You know the
+            thing just when all is lost, there is the one thing he needs to save the situation, once
+            is good fortune, twice stretching it but every time he trusts to luck it comes through
+            for him; at that rate he'd win the lottery every week. And successfully braking into a
+            rocket, on the launch pad, while the rockets are igniting and then accidently killing
+            the crew of three with three different accidents in the space of thirty seconds is hard
+            to take. Kill one in the struggle, hurt another, maybe or even kill all three with one
+            action but to set of a chain of events that takes out all three in different ways; a
+            somewhat convenient way for the writers to dispose of them. Not to mention all the other
+            amassing things he pulls off in space, jumping twice the length of a football pitch and
+            hitting his target, a six inch hand hold, every time, surfing Neptune's rings on a metal
+            plate he unscrewed from one spacecraft to get to another spacecraft miles away the other
+            side of Neptune's rings. All captain fantastic comic book for what is supposed to be an
+            intelligent narrative. As a bit of escapes entertainment it passes the time. Actings a
+            bit ham dram, direction a bit obvious. Special effects not that good. Moon Rover car
+            chase, they forgot, or hoped we'd forgotten, there's only one sixth gravity on the moon.
+            The rovers manoeuvre and behaved just as they would on earth and not as they would on
+            the moon. Other things also didn't behave as they would in space. Also I was getting
+            tired of seeing American Flags everywhere. They mention other nations on the moon and in
+            space but showed no flags other than American ones and they are on everything, space
+            craft, buildings, uniforms, equipement, vehicles, memorial plaques you name it and it's
+            got an American Flag on it. In all entertaining but very little else to commend it. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Massey</name>
+          <title>Worst Film Of 2019 </title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>SWatched this at the cinema and I couldn't stop comparing it to another crappy film
+            called gravity An astronaut gets sent to space to uncover a mission that happened years
+            ago to trace the commanding officer of another spaceship doing a top secret mission for
+            the government Along the way discoveries are made that it was a cover up and the
+            conspiracy theory is that something or someone is still alive on the other spaceship and
+            whatever is happening threatens all life on earth That is not a spolier at all it goes
+            deeper than that if you can get though watching the piece of crap It was so draining to
+            watch my friend actually fell asleep that's a first Save your money do not buy or see
+            this film </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">TJ Ramsbottom</name>
+          <title>Half a masterpiece </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>A tale of two halves, this one. The first 60 minutes or so have some of the best sci-fi
+            moments in recent years, right up there with First Man or Interstellar. The tone is very
+            much Terence Mallick in space; thoughtful narration over deceptively day-to-day
+            activities for astronaut Brad Pitt. The cinematography and sound design and effects are
+            all top notch. Pitt has done the stoic manly man role before and it would have been easy
+            to repeat himself but his character is far more buttoned up here than usual and Pitt
+            never takes the obvious route. Outstanding sequences include a pirate attack on the moon
+            (genuinely something you haven't seen before) and a traumatic (but rather unnecessary)
+            detour to visit an animal research vessel. But around the halfway point is where things
+            start to slip a little. Pitt goes looking for his crazy dad on Neptune and the film
+            increasingly resorts to cliche or is simply illogical. There was a five minute period
+            where I literally had no idea what was going or why. The answers are not as profound as
+            the filmmakers seem to think and I walked out the cinema frustrated at how blandly the
+            story concluded (the less said about Liv Tyler's wafer thin role, the better). So a
+            mixed bag, but the first half is near perfect which only makes the second half all the
+            more disappointing. It doesn't ruin it outright but it stops it becoming the masterpiece
+            it could have been. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mr. R. W. Graham</name>
+          <title>Signs Of Life </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>In the near future, astronaut Roy McBride goes in search of his father, a famous
+            astronaut missing and until recently presumed dead. Slow but intelligent and compelling
+            scifi drama with Brad Pitt giving one of his best performances and with good support
+            from Tommy Lee Jones, Donald Sutherland and Ruth Negga. It's an intelligent look at what
+            space travel in the future will likely be like, dealing with isolation and loneliness
+            plus huge distances. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mr. M. A. Crown</name>
+          <title>Promises Much But Does Not Deliver </title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I saw this at the cinema. Firstly, the cinematography is amazing - visually it is
+            stunning to look at. However, other than that it rapidly goes down hill. This film
+            borrows from other better, films. The journey Pitt's character takes to rendezvous with
+            his father is rather like that of 2001 A Space Odyssey and Heart of Darkness combined
+            (Apocalypse Now). The incessant psycho testing Pitt's character endures is rather like
+            that seen in Bladerunner 2045 performed on the principal character. The tension builds
+            with what looks like a father and son reunion and reckoning and then...………….nothing.
+            Whatever is settled when the two men meet is never really explored or made clear. The
+            internal emotional life of Pitt's character is never really revealed or contrasted with
+            that of his father. Motivations are not clear. I left the theatre feeling rather short
+            changed. There was some sort of resolution in the story but it was muffled and
+            incoherent to me. There have been a lot of excellent sci-fi films of late (Interstellar,
+            Bladerunner 2045, Arrival, even Oblivion and the Alien franchise). But I'm afraid that
+            Ad Astra is not one of them by a long margin. Pitt and Tommy Lee Jones are better than
+            this. Besides the sumptuous technical appearance, this film is just a thematic void when
+            compared to the deep space it depicts. Avoid. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Jack Ransom</name>
+          <title>Ad Astra </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This film really scratched an itch I’d had for a while with sci-fi films probably since
+            ‘Blade Runner 2049’ a couple of years ago and is far more interesting and different then
+            its trailers would have you believe. ‘Ad Astra’ follows astronaut Roy McBride (Brad
+            Pitt) undertakes a mission across space to uncover the truth about his missing father
+            (Tommy Lee Jones) and his doomed expedition which now, 30 years later threatens the
+            universe. This is probably the most visually impressive film I have seen this year when
+            it comes it’s locations and cinematography. From the moment the thrilling and incredibly
+            realistic opening sequence of Pitt’s character falling through the sky from space
+            happened I knew that I was in for a treat with the technical aspects. The space scenes
+            and planets are epic to see (I would definitely recommend this for an IMAX viewing), the
+            interiors of the ships gave me a very ‘2001: A Space Odyssey’ feel, especially with some
+            excellent use of a red colour palette later in the film. However my favourite shots have
+            to be the sections where the light bounces off the astronaut suit helmets and when we
+            see distorted and/or curved reflections of the character’s surroundings, a really unique
+            technique. I also liked the world building, with it being in the near future humans have
+            now migrated to the Moon, Jupiter etc. and we see various franchise outlets, living
+            situations etc. which I appreciated. The score of the film is also haunting and epic
+            throughout when it occurs, as a lot of the film is very quiet or with Pitt’s narration,
+            which makes the score even more impactful when you hear it. ‘Ad Astra’ nails being epic
+            in scope with its story themes as well as being a very personal and focused character
+            study of a man dealing with father issues and how we will come to face and overcome
+            them. Pitt has had a great year this year, this role of Roy McBride is a complete
+            contrast from the cool and upbeat attitude of ‘Once Upon A Time... In Hollywood’s’ Cliff
+            Booth. McBride is somber, quiet and only focuses on his job. Pitt has a lot of time by
+            himself in this film and a lot of his emotion is conveyed through facial expressions
+            rather than dialogue, combining the two aspects make for some really great and emotional
+            dramatic scenes (especially where he is trying to contact his father and the finale
+            sequence which I won’t spoil). It’s also good to see Tommy Lee Jones on the big screen
+            again in a good role here as the distant and obsessive father McBride, his screentime is
+            fairly limited but Jones steals the screen when he’s in any scene. ‘Ad Astra’ is a slow
+            burn film and some people will be expecting a different film to what the trailers have
+            led them to believe, with the marketing pushing a more action heavy film. There are some
+            impressive action sequences, the Moon driving shootout sequence is thrilling and there’s
+            a couple of intense and bloody fights (one of which I was completely unexpecting with a
+            very sci-fi horror tone to it). But aside from those it is very dialogue heavy and with
+            long camera takes. The more I think about it and whilst writing this review the more I
+            really appreciated and loved ‘Ad Astra’. It’s a blend of ‘Apocalypse Now’ (yes that’s
+            right) with its ‘quest for important person’ character study plot but set within ‘2001:
+            A Space Odyssey’s’ world. It’s a bold and original sci-fi adventure with brilliant
+            performances and excellent cinematography and writing, that will give you a lot to think
+            about and demands repeat viewing. One of my favourites of this year, highly
+            recommend.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Diggy</name>
+          <title>Rubbish, really total rubbish </title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Possibly the worst science fiction film of all time. There's no understanding of
+            science and the fiction is a sucession of half plots with little rhyme, reason or
+            conclusion. It lost me at (spoiler alert) the attack of the Norwegian cannibal space
+            monkeys - I kid you not. Do anything with your precious 2 hours than watch this tosh.
+          </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Gordon C. Tait</name>
+          <title>Symbolism and poetry - sadly missed by most. </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>For all those who are critiquing the movie's flawed science, and focus purely on that,
+            then you have missed a very poignant effort from Brad Pitt and Co. The film focuses on
+            astronaut Roy McBride who has been "volunteered" to embark on a mission to contact his
+            father who commandeered a failed mission to Neptune in the hope of finding alien life.
+            After a series of surges that have plagued Earth, the Government fears that McBride's
+            father may be responsible and deploy his son in the hope of terminating his command.
+            That's the premise but not the real story. Within the grandiose interplanetary
+            photography and stunning production design, McBride's journey takes him on a journey of
+            self-relisation and alienation - the central theme of the movie. With almost every shot,
+            we are subtly given insight into Brad Pitt's troubled character and journey which he
+            plays to perfection. Yes, you may have found parallels with Apocalypse Now and that is
+            true, but this is not a cheap imitation. The poetry of the movie if represented by the
+            celestial bodies, planets, and the distance between them which serves as a mirror for
+            McBride's lonliness and alienation from the people in his life. For a pleasant change, a
+            film is asking more of the viewer than the average theme-park-ride movies of late. If
+            you are looking for a science adventure epic, then this is not for you. That said, one
+            cannot ignore the mind-blowing visuals, in particular, the moon chase and the final
+            scene orbiting Neptune. If however, you are looking for a slow burner that appeals to
+            the more discerning viewer that can interpret the director's subtle realisation and
+            visual cues instead of mocking the physics, you are in for a treat. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Barry Wom</name>
+          <title>Not as smart as it thinks it is. </title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Love me a bit of slow burning philosophical sci-fi. We’ve had some interesting films in
+            the last decade. Also like me a good character drama set against the back drop of space
+            exploration. Sometimes you get a bit of both and Ad Astra, on the surface and having
+            already been warned that the trailers were somewhat misleading, appeared to be offering
+            something thoughtful. To me it fell short by some distance and came across as long
+            winded, for its average running time, a bit pretentious and clunky. The oedipal come
+            existential message isn’t as subtle as it thinks yet at the same time manages to find
+            itself truncated by a silly ending and some odd creative choices. The studio mandated
+            action scenes just seemed out of place and non consequential adding nothing to the
+            narrative and little to the theme. The moon segment looks like it was stolen directly
+            from Episode 2 of ‘Futurama’ and much of the rest of the film from the disjointed ‘Event
+            Horizon’, from way back, although it’s obviously trying to ape ‘Apocalypse Now’. Can’t
+            fault the lovely photography and good effects. Brad gives a good turn. Tommy is in it
+            briefly and is underwhelming. Other stars come and disappear abruptly and one, in
+            particular, has absolutely nothing to do. It’s not awful but given some obvious love
+            that’s gone into it is very disappointing and certainly no masterpiece. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Moira</name>
+          <title>O Father, Where Art Thou? </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Generally more psychological than action driven, the plot of Ad Astra has a measured
+            pace which allows the main character, Roy, to reflect on the personal and environmental
+            downside of space exploration. In adolescence, he lost his astronaut father, H.
+            Clifford, to an expedition, searching for extra terrestrial life. This has closed Roy
+            down emotionally while focussing his energies on becoming an astronaut too. He readily
+            accepts an assignment to try to track down his father, who it is believed, may still be
+            out there and responsible for power surges emanating from Neptune which threaten Earth.
+            En route, this allows Roy to show and describe, how the commercial side of space travel
+            has already led to the Disneyfication of the Moon and is spreading wherever colonisation
+            goes. Action scenes along the way vary the pace of the film. At their best they are well
+            executed visually with curved reflections that create a sense of claustrophobia while
+            wider shots are scarily vertiginous. At their worst, however, they stray from the film's
+            own logic, sucking the plot into little black holes of implausibility, including some
+            gory 'monkey business' and an unlikely stowaway caper. Thoughtful, but probably not as
+            profound as it imagines. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mr. R. Stanton</name>
+          <title>Brad Pitt vs the space monkeys </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Roy McBride is a well respected astronaut who is sent on a top secret mission to the
+            outer edges of the Solar System to retrieve his father who he believed had died many
+            years earlier when they lost contact with his crew. He is also asked to investigate the
+            strange pulse signals known as the surge that have caused devastation upon Earth and
+            many believe they have originated from the same place as the last known location of
+            McBride's father. Technically, Ad Astra is a superb film and it looks stunning. It's a
+            difficult one to describe or to even say whether I enjoyed or not. I think it is one of
+            those films that needs to be seen more than once. If Terence Malick made a film set in
+            space this would be it. He is a big fan of the internal existential monologues and they
+            are here in abundance. There are also influences from Apocalypse Now / Heart of Darkness
+            and some of the more visceral thrills from the likes of Gravity. Lite on the action, big
+            on the thinking, it's worth watching if you have the patience, not so much if you're a
+            fan of aliens and shoot-outs. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mark Dyer</name>
+          <title>2001 : Apollo-colypse Now </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>As a simple piece of entertainment it's not bad or quite good, possibly about 20
+            minutes too long but that is very debateable. Good cinematography, sound, images and I
+            liked much of Brad's work in extreme close-up. However, in much the same way that going
+            fishing is not about going fishing this is a space film that's not about space. There is
+            too much that seems to have been lifted from Apocalypse Now, including the intrusive
+            voice-over and the music was overbearing. I enjoyed the spectacle of the set-piece
+            scenes and they were put together well but they seem to have been dropped into the story
+            just to spice up the film; I suppose without them the 'journey' would have been almost
+            pure 2001 rather than just similar to that. The final scenes were quite weak in my
+            opinion and the final piece to camera so unsubtle that it's as if the previous hour or
+            so of voiceovers hadn't happened. A reasonable way of spending a couple of hours but
+            nothing exceptional, which was a bit of a disappointment because I wanted it to be good.
+          </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Places in the Darkness byChris Brookmyre</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>https://www.amazon.co.uk</distributor>
+          <publisher>amazon</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">P. G. Harris</name>
+          <title>Do Androids Dine on Electric Neeps? </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Or Philip K Dick writes an Angelique de Xavier novel Or Glasgow in space Places in the
+            Darkness opens in a very dark place, with two workers on a space station discovering a
+            spectacularly dismembered corpse. The story then switches to an Arthur C Clarke style
+            space elevator, bringing a new head of security, Dr Alice Blake, to the space station
+            Ciudad de Cielo. On the way she is having trouble with her memory. The City in the Sky,
+            overseen by the Federation of National Governments, and by a consortium of
+            multinationals is humankind's hope for a gateway to the universe. The scientific and
+            psychological research is underway to enable interstellar missions to be launched. The
+            picture transmitted back to earth is of a utopian, crimeless society. The reality on the
+            floors of the rotating space station is very different. "Detective" Nicole Freeman aka
+            Nikki Fixx is a corrupt cop, working in the vice dens on one of the city's two wheels.
+            When Alice is warned about Nikki by a self righteous campaigner, she sets out to find
+            out about the places of darkness hidden behind the facade. This leads to a classic chalk
+            and cheese relationship between rookie and gumshoe, between idealistically pure, and
+            pragmatically dirty, between posh and streetwise. As the killings start to mount, Alice
+            and Nikki are drawn deeper into the greater and more dangerous secrets which lie at the
+            heart of their world. While this is very much a piece of hard science fiction, well
+            rooted in the classics of the genre, with the halfway station on the space elevator
+            being called Heinlein, it is also recognisably a Christopher Brookmyre crime novel. The
+            gruesome killings, the gangsters, the very slightly over the top plot could have come
+            straight out of a Jack Parlabane book. Places in the Darkness also fits neatly into the
+            tradition of Philip K Dick. It uses science fiction, and specifically robotics and
+            artificial intelligence to explore the question of what it is to be human. It also
+            challenges the concept of utopia, setting out its manifesto that not only will any
+            utopia be brought down by human nature, but that the places of darkness within our souls
+            are a necessary part of being human. Another aspect of the book which is characteristic
+            of Brookmyre is that it is a cracking good read, pacy, intricately plotted, and
+            massively entertaining. All the way through, Brookmyre works hard to telegraph the
+            approaching twist in the tale, but of course, when it comes it goes in a different
+            direction from the false trail he has laid. I would make two specific negative comments.
+            Firstly, the ending is a little too neat, a little too redemptive, although Brookmyre
+            writes with his heart so obviously in the right place he almost gets away with it.
+            Secondly, if you have an inner geek, you are likely to be upset by the occasional
+            technical howlers, for example, a massive structure, rotating in zero gravity cant just
+            stop. All in all, this will probably work for regular readers of both SF and crime
+            fiction, and so if you enjoyed Alastair Reynolds' "The Prefect", this is likely to be to
+            your taste. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">pjh</name>
+          <title>Not the usual Brookmyre standard </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I am a huge Chris Brookmyre fan. I don’t think this is one of his best. Unlike his
+            non-sci-fi novels, which usually have pacy plots and witty dialogue, this book seemed to
+            spend too long focussing on describing what the author was predicting could happen in
+            the future, detracting from the plot. I usually have a “give up after the first 50
+            pages” approach if I don’t get on with a book, and I wanted to do this here but
+            persevered because it was Brookmyre, and it did get better, but never reached the old
+            standard for me. Maybe I’m just not a sci-fi fan. Can we go back to 21st century Earth
+            for the next one Chris? </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mrs Lou M Bell</name>
+          <title>It's Brookmyre, Jim, but not as we know him... </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>If you're expecting the near-the-knuckle wisecracks and biting satire of the Parlabane
+            years, this is probably not for you. If you liked Bedlam, or even Pandaemonium (which
+            could be described as his crossover to SF if you like pigeonholing things), then you're
+            nearer the mark. I'm a glutton for anything the man writes, and am also a bit of a
+            Sci-Fi fan (okay, a lot. Okay, I'm a total geek), so I loved it. The space station idea
+            is a good one - it gives a nice sense of claustrophobia, and also means it's not too
+            broad a canvas so that Mr B can do what he does best - strong plot and characterisation.
+            I'm not a scientist so am unable to pick holes in his physics (though I'm aware holes
+            are there to be picked if that's what floats your boat). It's basically a detective
+            novel in space with a nice SF twist (which I kind of saw coming but as I said, I'm a fan
+            of the genre - as is Chris Brookmyre, clearly). Guessing the twist didn't make the
+            experience any less enjoyable IMO. You just switch from 'where's he going with this?' to
+            'how's he going to get us there?'. He rarely disappoints. His main characters here are
+            initially not easy to like, but what Brookmyre is expert at is tilting the narrative so
+            that we end up sympathising with them both, for different reasons (see also
+            Pandaemonium, which does this a few times). There's clear potential for more along these
+            lines, and I for one definitely be reading it. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Dunfermline woman</name>
+          <title>Fast paced believable sci fi. Hard to put down. </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I was delighted to see Chris Brookmyre had published another book whilst I wasn't
+            looking and having struggled through an overlong book with lots of discussion and not
+            much action enjoyed having a fast paced book I struggled to put down again. It's sci fi
+            but believable sci fi. The plot twists and turns but is never far fetched. It makes you
+            think about the potential ramifications of a lot of the tech we're currently developing.
+            Some of the discussion around the brain deciding what it's going to do before we think
+            up reasons why we're doing it, and many of these reasons being just tales we tell
+            ourselves to try and create a logical narrative are current not future science, as I
+            presume the author knows to make his future seem more plausible It all ties up nicely
+            too, too many authors just seem to stop writing and struggle to end their stories. Good
+            to see flawed women as central characters. If you want to immerse yourself in another
+            reality for a few hours read this. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Cubeist</name>
+          <title>Too superficial and needy </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The good points; it's well written from an action point of view, the pace is good. As a
+            general thriller it works well. If you let it wash over you it works, as long as you
+            don't think too much about sciency stuff and the social commentary (which the author
+            probably does want you to). The bad points; the sci-fi is superficial, there's nothing
+            new or groundbreaking. The whole idea of what it is to be human has been done better in
+            other sci-fi books. If you're crossing over into the genre because of the author's past
+            work then ok, but anyone coming to as a sci-fi lover won't find much to think about.
+            Then there's the needy bit, the identity-politics stuff was clunky. Nearly all the major
+            characters are female, and you're repeatedly told how much tougher they are than the men
+            around them. There were several relationships, sexual or otherwise, all of them were
+            homosexual. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Lindsey</name>
+          <title>I am also an enormous fan of Science Fiction and was delighted to find one of my
+            favourite authors venturing into ... </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I am a big fan of Christopher Brookmyre, after discovering Quite Ugly One Morning a
+            long time ago. So many things chimed with my own life experience it eventually got a
+            little creepy - I used to live in the same street as Jack Parlabane - however... I am
+            also an enormous fan of Science Fiction and was delighted to find one of my favourite
+            authors venturing into space. Gritty and real space at that, with malt whisky. This is
+            not the Utopian dream of Star Trek, nor galaxy-spanning space battles. It's a story
+            about humanity, and thus is accessible for the non Sci Fi orientated. As always a well
+            crafted story exploring interesting themes, and very readable. Nice one Mr Brookmyre,
+            I'd be happy to read more of the same. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">David Hartlebury</name>
+          <title>Are we who we think we are? </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This is an interesting murder mystery, if also science fiction. You are about to become
+            chief of the police and have been told there is corruption in the force. The publicity
+            for the place of your new job is there are no murders here. The first thing to happen is
+            you wake up half way there to the sound of children's voices, but there are not to be
+            children there. However, these are children of a rich supporter of the projects in your
+            new home. The next thing to happen is you cannot remember anything of what happened
+            before you went to sleep and you are confronted with a vicious murder. You are told that
+            the person helping you is corrupt. The story spreads on from there. Nothing is truly
+            what it seems! This is an interesting story. The baddies are not the truly bad people.
+            It is interesting that everyone believes that their minds are incorruptible when it is
+            shown this is not so! The point of the story is what people will do in the name of
+            progress and "for the good of the people". I am sure that this is a get out for all who
+            do things bad to people to salve their conscience! Good story and maybe there can be a
+            follow up as the ending leaves a way to other actions following on. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Malcolm R</name>
+          <title>Neither fish nor foul but good </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Whodunnit in space. Sci-Fi police adventure. Cursory rumination on consciousness, AI,
+            memory and being human/Android. All of these and thus a bit too much goes on though not
+            too much in the way of thrills, detection or mystery. The story is nicely told, the
+            culprit obvious but with a fair twist at the end though the plot is hampered by too much
+            explanation of the environs where a sci-if writer would simply make it space opera and
+            use the space station as scenery. Isaac Asimov dabbled with crime in space in “The Caves
+            of Steel” and “The Naked Sun”, Daneel is a much better android copper! My overall
+            feeling is that it is very enjoyable but I was left with a niggling dissatisfaction and
+            I’m not sure why. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Jac-in-the-book</name>
+          <title>Well done, Mr Brookmyre! </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This is my first foray into Chris Brookmyre's sci-fi and I'm so glad I gave it a go.
+            The ideas, the characterisation and the writing are first class and as well as that we
+            get a piercing light shone on our likely future political/business culture which sadly
+            demonstrates many of the same faults as it does now. Despite this, decency and humanity
+            are still to be found which leaves a sense of optimism at the end of a page-turning
+            plot. Highly recommended. More please! </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Fjb</name>
+          <title>AGood sci-fi-detective story </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>A change in direction for the author not direct am convinced by the change I love
+            Brookmyre's work one fine day in the Middleton the night was his first book I read it
+            was/is brilliant. I have read all his other books this one has many of same themes a
+            flawed but fundamentally decent main protagonists decent. Examinations of power and
+            corruption. If he writes another in the same,world with Nikki Freeman I'll give it a go
+            but remain to be convinced </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Kindle Customer</name>
+          <title>Bit Different </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Been a Christopher Brookmyre fan for quite some time. Got this to see what he'd be like
+            without all the bits that attracted me in the first place. You know, the Scottishness,
+            the dark humour and looking for the title of the next book. Not a great sci fi fan but I
+            really enjoyed this book, he really does write well. On the negative side it's not the
+            most original sci fi ever. Can't go into that much, too many spoilers but there's a lot
+            of P K Dick in there. A good fun read, hope he writes more. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Keen Reader</name>
+          <title>Not for me... too much Basil Exposition </title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I normally love Chris Brookmyre books, but I'm about 34% in with this one and can't be
+            doing with it any more. I don't feel anything for the characters, have no idea who
+            anyone is because they're all painted so thinly and there's too much of a starring role
+            for Basil Exposition. Sad to say but I'm giving up. Life is finite, as is my
+            patience.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Brian Allan</name>
+          <title>Lacks punch </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Places in the Darkness follows a pair of mismatched police officers on a space station.
+            It felt to me that it took a while to find its feet and it was a bathe to each the half
+            way point, at which point it improved. My main complaint is it felt like the author was
+            pulling his punches. The chaotic humour of his early books is missing, barring a few
+            tantalising glimpses. The book would have been far better for it. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Number 6</name>
+          <title>Space, Plot, Characters and Tension </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Brookmyre moves into orbit with a plot high on tension and character. He paints as PME
+            graphic images and does ahis usual job in building an intricate story that keeps you
+            hooked. Not much of the early Christopher Brookmyre humour but still quite a smattering
+            of the sarcasm and tension he has adopted as Chris. A very readable novel for both
+            Sci-Fi buffs and Parlabane readers, although with Alice taking over as the hero(ine).
+          </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">NQureshi</name>
+          <title>Blade Runner in space... </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This was a classic piece of space noir which rocketed along with stellar urgency, the
+            page-turning tempo belies some of the novel's weighty themes (memory, identity, what it
+            means to be human). It is by no means derivative of great sci fi noir Blade Runner but
+            tackles some of the same territory, albeit in a setting and style that is all
+            Brookmyre's. The characterisation of the two lead characters is compelling and authentic
+            and - as is the author's forte - the pages zing with some cracking one-liners and
+            dialogue. A superb novel. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">grumpyhead</name>
+          <title>Much ado about nothing </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Not really sure what to write about this book...I had high hopes for it but alas they
+            were unfulfilled. Not a great deal happens in the book story wise; I couldn't emphasise
+            with any of the characters and the sci-fi was lo-fi. It was one of those books that is
+            ok in places but I really just wanted to get it finished to get started on something
+            more entertaining </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">R. Norton</name>
+          <title>Places in The Darkness doesn't disappoint </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I've been a big fan of Christopher Brookmyre's work for years, he's one of my "go to"
+            authors but several chapters in and I was worried that he'd lost his touch. I shouldn't
+            have doubted him. The characters, plot twists and vivid descriptions of the space
+            station and it's rotten underbelly gradually reeled me in. Don't have any doubts, buy
+            this book, you won't be disappointed. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">S. Hayes</name>
+          <title>I nearly gave it 6 </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I thought the writing here was utterly fantastic. Definitely a solid 6. The story was
+            very decent SF cum whodunnit with a Film Noir atmosphere like Chinatown (Jack Nicholson,
+            Faye Dunaway). A definite pageturner. I am now following this author The ending wrapped
+            everything up, just that I didn't like it, so a mere 5 </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Malcolm Risk </name>
+          <title>Meet the Space Race... </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Brookmyre takes all his earthbound gifts of humour, characterisation, social commentary
+            and good, old-fashioned story telling, and elegantly transfers them off-planet for a
+            sci-fi murder mystery with bells on. It’s a sort of Brave New World meets The Handmaid’s
+            Tale meets Blade Runner meets Frankenstein morality tale with the usual mix of witty
+            dialogue, sharp plot twists and thought-provoking context. Buy it. Read it. Love it.
+          </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Craig McGill</name>
+          <title>Good but... </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>It’s not a bad book but it takes a long time to get going. Without going into spoilers,
+            once the main storyline reveals itself everything gets better but it just takes a long,
+            long time to get there (as in Act III). Might just be my preferences though. </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>SEGA Mega Drive Mini (Electronic Games)</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>https://www.amazon.co.uk</distributor>
+          <publisher>amazon</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Alexey Stepanov</name>
+          <title>Sega Does What Nintendon't - again! </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Essential for everyone who gets shivers from the above ad, or games like Sonic the
+            Hedgehog, Toejam and Earl, Comix zone, Gun Star heroes, Streets of Rage and Earthworm
+            Jim, among others. Sega had just one job - to treat both fans and games with respect,
+            and they have not failed, unlike Sony. Everything works as it should, and it does feel a
+            'complete' package, even though most will find one or more of their favourite games
+            missing from the included list - but you cannot have it all, I suppose. From the sounds
+            to different 'box art' when you switch languages, you can see how much attention and
+            LOVE was put into it. Highly, highly recommended. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Kevin Muldoon</name>
+          <title>If You Loved the SEGA Mega Drive, You'll Love The SEGA Mega Drive Mini! </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Ever since Nintendo released the NES Mini, mini versions of classic gaming consoles
+            have been all the rage. Now it's SEGA's Turn. Various versions of the Sega Mega Drive
+            has been released by third-parties over the years, but this is the first official
+            re-release of the Mega Drive from SEGA themselves. The package includes: * SEGA Mega
+            Drive Mini * Two Wired Controllers * HDMI Cable * USB Power Cable (No USB wall adapter
+            is included) The console itself is fantastic. SEGA has done an amazing job here. Even
+            the cartridge slot opens up (of course, it isn't used for anything). The controllers
+            look exactly like the original. Apart from the USB port being at the end of the
+            controller cable, you'd struggle to tell the difference. The D-pad works great and the
+            buttons are responsive. Games play great too. There aren't too many settings to play
+            around with, but you can play games in the original 4:3 aspect ratio or go full screen.
+            All 42 games are presented well. You can view them all using the front cover or side
+            sleeve. All games can be sorted in a variety of ways, such as genre, release date,
+            number of players etc. There's a good variety of games such as Sonic 1 and 2, Strider,
+            Street Fighter II, Ecco the Dolphin, Road Rage 2, Tetris, and more. It's a little
+            annoying though that no sports games have been included as the Mega Drive had many
+            classics. Online play would have been great too, but overall I am really pleased. SEGA
+            have did a fantastic job recreating the design of the original console and the included
+            controllers are superb. If you aren't a massic retro gamer, you may want to just buy the
+            Sega Mega Drive Classics game instead, but I think most people who grew up with the Mega
+            Drive will love this :) Kevin </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">matthew phillip</name>
+          <title>Looks good now I have the Mega CD tower kit </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>So happy I had this now, got the original as seen in pic, games are amazing and looks
+            good with the Mega CD tower add on I imported from Japan. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">DaveC2020</name>
+          <title>Loving this Retro Console </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I received my Mega Drive Mini console today 6 months after preorder and is just
+            brilliant. Attention to detail is remarkable like the cartridge slot, volume control,
+            reset button and power button on the console. Played all the games and brought back
+            memories. Console is reasonably priced and arrived in excellent condition. One downside
+            is games like Street Fighter 2 Champion Edition that are better played using a 6 button
+            controller. The two controllers that come with the console each have 3 buttons. Bought a
+            Retro Bit 6 button controller on Amazon for around £20 and highly recommend it. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mark.O</name>
+          <title>Brilliant ,best of the mini consoles so far,sorry SNES </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Brilliant to play the mega drive again in its original form.i always preferred this
+            design over the mega drive 2 and its ugly mega cd add on.really well made console true
+            to the original albeit a mini version and using the controllers again feels great after
+            all this time.build quality and box is great and accurate for the original and really
+            kicks it home that sega is trying to give it the true mega drive feel unlike the dodgy
+            blaze mega drives that have been around for some time.there some great games on here,I
+            think there’s 42 altogether and most of them were really good back in the day of my
+            youth and my all time favourite road rash 2 makes an appearance.personally I think the
+            game choice is the best out of all the mini consoles so far. the emulation so far seems
+            accurate and the sound too.you can also choose full screen or bordered in the menu and
+            also switch to crt for that true retro feel.connects via hdmi to all modern TVs and is
+            powered by your TVs USB port so you don’t need a plug if you have usb on your tv.all in
+            all you are getting an accurate mini mega drive with some of the best games on the
+            console faithfully reproduced for the equivalent of about £2 a game so why are you
+            reading this and not ordering it?its great for people who owned the original and also
+            new retro gamers wanting to experience the mega drive without having to pay crazy money
+            buying originals in good condition.well worth it,awesome mini console </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Nigel Powell</name>
+          <title>Not quite four stars but three would be harsh (3.75) </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The good: Exquisite design on the console, best of any mini console yet in my opinion,
+            the details are great, a real collectors gem. The two controllers supplied are excellent
+            quality and perfect reproductions of the original with a decent cable length unlike
+            Nintendo's efforts. Standard USB connectors as well should offer good compatibility with
+            other formats (as yet untested). A good number of games and a very easy to use and well
+            designed UI with box art and easy to understand settings and more importantly, easily
+            accessed from the controller during gameplay, again unlike Nintendo's efforts. Games are
+            perfectly responsive and look good on a modern TV although large screens may be less
+            forgiving due to the low resolution used back then. Overall the best emulation yet
+            outside of PC and less 'official' emulation but not perfect (see The Ugly below). The
+            bad: Selection of games could be better. I know this is personal preference but there
+            are some glaring omissions. Where are the Sega arcade classics like OutRun and
+            Afterburner. Why only Streets of Rage 2 (admittedly the best one!), Shinobi 3 but no
+            Revenge of Shinobi? I'm sure licensing has played a part here but the collection does
+            feel a little incomplete. Whilst excellent quality the controllers provided are only the
+            three button variety which makes playing Street Fighter 2 a pain but this one game
+            shouldn't be a deal breaker and there is an excellent 6 button pad available which works
+            perfectly with this device. Also, without the inevitable hacking, there is no scope for
+            firmware updates or adding games, something that the second generation Flashback HD has
+            a distinct advantage over this device. The Ugly: The CRT filter is a shocker, worst
+            attempt I've ever seen and should be avoided at all costs. Unfortunately this leaves no
+            options for smoothing the pixels on a modern TV. You can stretch the image to fit
+            widescreen but I personally think this is even worse unless you prefer fat sprites of
+            course. My biggest issue however is that there is sound lag with the audio a few frames
+            behind the visuals, not quite as bad as the AT Games consoles but it is still
+            noticeable, especially on the quicker games like the Sonic games where it seems worst.
+            Also, I do own the original console and the sound isn't quite perfect on some games but
+            honestly for most people this won't be an issue; but the lag is annoying as AT Games
+            were criticised quite heavily on this point so it's probably only fair to point it out
+            on this device as well. It's better but not perfect. Overall: Best HD Megadrive console
+            yet but not perfect and not a clear winner for me over the second gen Flashback HD as
+            there are pluses and minus' for and against each when going head to head. If you have to
+            get one and don't have a collection of cartridges to test and you're not bothered about
+            the the odd missing title here and there it's a no brainer. Either way you're gonna have
+            sound lag!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Adam F</name>
+          <title>Just get one </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I own most of the mini consoles from the NES to the C64, I also still have original
+            Nintendo's and most importantly to this review, my megadrive! I also own many of the
+            games on the console, and all are great reproductions. From Castle of illusion to Sonic
+            to Alex Kidd, they are all great games, and I cannot wait for my son to be old enough to
+            play them, I'd recommend this for a youngster as a first "console". The console itself
+            is up there and maybe better cosmetically than the Nintendo's, and is possibly the best
+            mini console yet, but that may be just because this is my era and I was a Sega kid.
+            Coming with 2 controllers is great, and they are of a good quality, although one does
+            sometimes double click on the pad when it shouldn't, that may go away with use over
+            time. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Romek</name>
+          <title>Probably the best official Retro Console so far </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>So this is a very solid retro console. Build quality is very good, attention to detail
+            is great. Love how most of the buttons on the console actually work. Well done Sega...
+            now here is what would have made this absolutely amazing: Include the 6-button
+            controller (especially since some of the games use it -hello Street Fighter, and the
+            Japanese version got the 6-button controllers). Put a working audio jack in the front
+            (like the original). I think that would have been very helpful and pretty easy to do
+            (hello Raspberry Pi) Standard 6-button USB Sega controllers don't all work??!!? Not sure
+            what's going on there but I have 2 different ones and both are not recognised by the
+            console. (work great on my Raspberry Pi so I know they use generic drivers). The game
+            library is nearly a masterpiece with a few games I would have swapped out to make
+            perfect (I know this is more of an opinion but you might agree with some of these):
+            remove: World of Illusion Probotector Story of Thor Virtual Fighter 2 Eternal Champions
+            Dynamite Headdy Light Crusader Replace with some of these: Phantasy Star II Phantasy
+            Star III Super Street Fighter 2 Sonic and Knuckles Revenge of Shinobi Thunder Force 2
+            Gain Ground Air Buster Crack Down Batman Shadow Dancer E-Swat Granada Castlevania
+            Bloodlines Vector Man 2 Disney's Aladdin Herzog Zwei Gaiares Shinning Force Shinning
+            Force 2 Shinning in the Darkness and I can go on... Better yet, charge twice the price
+            and add ALL of these! :-) </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Martin Ward</name>
+          <title>High Definition Graphics, Stereo Sound </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This is an entertaining trip down nostalgia lane, back to the days when high definition
+            meant something else entirely. A selection of some of the greatest games of the 16 bit
+            era, from an age as golden as the logo on the console casing. Despite emulation being
+            nearly as old as the mega drive itself, there is no substitute for playing on genuine
+            hardware. With this being Sega’s first console since the days of the Dreamcast, it was
+            unthinkable for a fanatic like myself to pass it up. I’ve waited ages for something this
+            good. </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>The Mendocino Hotel and Garden Suites</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>https://www.expedia.com</distributor>
+          <publisher>expedia</publisher>
+          <pubPlace>U.S.A.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Claudia</name>
+          <title>Pleasing</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Good value. Shared bathroom not really nice. Otherwise there is a lot of value for
+            money. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">John</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Cool old inn. Charm maintained throughout. Friendly staff </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Brent</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Beautiful turn of the century hotel with multiple accommodation options depending on
+            your budget. On the main boardwalk in Mendocino, and steps away from the coastal walking
+            trails. Staff were friendly, and accommodating. (John Tw.. was very funny and
+            entertaining). Meals were good and reasonably priced. We would have stayed longer if we
+            could have.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">by A verified traveler</name>
+          <title>Pleasing </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Location and employees are great. Very nice restoration of the facility.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Patti</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great dining. Location is tops. Views. I have stayed here many times. A great place to
+            have family stays.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">OPenaloza</name>
+          <title>Pleasing</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Needs some updating inside and outside (fix broken fencing, cleanup weeds in gardens
+            etc. otherwise nice place and can be updated again. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">BillH</name>
+          <title>Pleasing</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The room was very small and access to the double bed was limited to one side. The bed
+            was very high which made getting on the bed a problem. The hotel advertised WiFi but the
+            signal was too weak to be usable in our room. The shared baths were OK for a short
+            stray. An OK night's sleep at a decent price in an expensive town.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Haird</name>
+          <title>OK</title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Location is very good, but so is anyplace in town. Facility was cramped and rooms were
+            worn. Not terrible, but not a good value at the price. They really ought to upgrade
+            their mattresses which are saggy like a hammock. Shower temp was hard to keep
+            stable.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">mary</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>We have stayed here many times. Staff is extremely friendly. Rooms are old fashioned
+            and great views. Just a nice place to stay. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">by A verified traveler</name>
+          <title>OK</title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Old quirky hotel. Nice staff but very squeaky bed. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">by A verified traveler</name>
+          <title>Good, Not great</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great Location with lots of lovely local history. I think they would do well to WASH
+            the windows in the room I had 315, and perhaps the curtains as well. I get that the
+            hotel is over 150 years old, but I dont want it to feel like I am in a 150year old room.
+            It was clean otherwise, not a lot of modern day amenities such as outlets. It did have a
+            semi-damp/musty smell and although you could put the windows up, not only were they not
+            clean, they didnt have screens, definite minus </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Anne</name>
+          <title>Disappointing</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The history of the hotel was impressive but otherwise we regretted having booked here.
+          </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

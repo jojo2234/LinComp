@@ -1,0 +1,1548 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE teiCorpus SYSTEM "./tei_corpus.dtd">
+<teiCorpus>
+  <teiHeader>
+    <!--File description-->
+    <fileDesc>
+      <titleStmt>
+        <!--Title, author and encoding's responsable-->
+        <title>Corpus of reviews</title>
+        <author xml:id="auth">
+          <persName xml:lang="it">
+            <forename>Alessandro </forename>
+            <surname>Mazzeo</surname>
+          </persName>
+        </author>
+        <respStmt xml:id="AM">
+          <resp>Reviews taken by:</resp>
+          <persName>
+            <forename>Alessandro</forename>
+            <surname>Mazzeo</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <!--Information about editions-->
+      <editionStmt>
+        <p>1' edition <date>2019</date></p>
+      </editionStmt>
+      <!--Information about distribution-->
+      <publicationStmt>
+        <distributor>Alessandro Mazzeo</distributor>
+        <publisher>Alessandro Mazzeo</publisher>
+        <availability status="restricted">
+          <licence>Creative Commons 4.0 BY SA</licence>
+        </availability>
+      </publicationStmt>
+      <!--Information about the source where the content is taken-->
+      <sourceDesc>
+        <p>Born digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <!--Information about encoding-->
+    <encodingDesc>
+      <!--Project's purpose-->
+      <projectDesc>
+        <p> The project is a electronic corpus of reviews about products or services, taken from
+          e-commerce and others booking platform. </p>
+      </projectDesc>
+      <!--Declaration about common encoding editing-->
+      <editorialDecl>
+        <p>Every text element is original.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <!--Not bibliographic description: text language and text typology-->
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term>corpus</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="EN">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <TEI>
+    <!-- Reviews of a product -->
+    <teiHeader>
+      <!-- Product or service information -->
+      <fileDesc>
+        <titleStmt>
+          <title>Kitchen Herb Garden Kit Windowsill Window Box Planter with Seeds</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>Primrose</distributor>
+          <publisher>https://www.amazon.co.uk/</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <!-- One review of the product or service inserted in teiHeader for this element TEI-->
+      <front>
+        <head>
+          <name type="author">MB</name>
+          <title>Kind of works</title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Like most people I didn't have much luck growing the seeds provided so bought some more
+            which have grown I also planted spring onions as these are easy to grow. The growing
+            material provided is quite sandy so I found I had to add a fair bit of water to get
+            anything to appear. Id suggest different amounts for the 3 pots provided and hopefully
+            one will yield resilts. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <!-- Another review of the product or service inserted in teiHeader-->
+      <front>
+        <head>
+          <name type="author">monica smith</name>
+          <title>Absolutely rubbish.</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Very disappointing. I followed the instructions and I am a frequent gardener, yet
+            nothing has happened. They haven’t germinated or sprouted - after being planted for 6
+            weeks already not a single peep of life is happening in any of the boxes. I’m going to
+            put it down to a bad batch of seeds. The soil is also a bit odd, but I’m not sure. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">J. M. Cadle</name>
+          <title>Good present</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Bought as gifts and seem to be well received. The box was smaller than I thought but
+            the measurements were on it - not a problem as will easily fit on a windowsill. Well
+            packed and received on time. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Zac</name>
+          <title>Didnt grow anything</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>no chillies gre after following all instructions, very disappointing. Went out and
+            bought some soil to replace the non suitable growing medium they give you and some new
+            chilli seeds and already i can see green shoots poking through. basicly you are just
+            buying the box ignore the other stuff it gives you probably could of just bought a small
+            plastic flower trough for the window sill and got the same effect for cheaper.
+            disappointing fathers day present. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Amazon Customer</name>
+          <title>One Star</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Seeds did not germinate at all</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Hg</name>
+          <title>Use ur own seeds.</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I'm like most reviewers, unfortunately nothing grew. It's definitely the seeds. I used
+            the same soil with different seeds and they are coming on a treat. Would've been 5 stars
+            but not this time sorry☹. If u can live with that and use our own seeds then this is the
+            one for u. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Earthling</name>
+          <title>DONT BUY</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Total waste of money, don’t know what the potting compost was supposed to be, looked
+            like granulated cork, 30 seeds planted on a warm south facing windowsill on a
+            propergating mat, over a month later, nothing, total loss of money, also did not have
+            any instructions or planting directions at all, very cheap and nasty, also much smaller
+            than I expected </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">NR82</name>
+          <title>What a waste of time and money</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>What a waste of time and money. Quite literally nothing grew after weeks of waiting.
+            Planted several other herbs at the same time from normal seed packets in normal soil and
+            all are doing fine. This kit comes with a very strange gritty sand to grow the seeds in
+            and I strongly believe this is what has prevented any growth. Don’t bother with this
+            item </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Derwent Academy 2300147 Colouring Pencils and Graphite Pencils Art Supplies Set of
+            30 Pencils and 5 Accessories</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>Derwent</distributor>
+          <publisher>https://www.amazon.co.uk/</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Debbie Parker</name>
+          <title>Value for money.</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Derwent pencils are a well known brand and are made in the UK. I got them as started
+            kit for myself, rediscovering an old hobby. This set is ideal for my needs as it has a
+            mixture of vibrant colour pencils , water colours and graphite pencils. All of great
+            quality. As a first set i feel this would be a really good gift for a budding artist or
+            someone getting back into art. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">P. Callaway</name>
+          <title>Very happy daughter</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Perfectly adequate set for a keen little artist. It is by no means the best quality
+            box, but it works and it stores everything together and there is a good range of
+            materials inside for the drawing and sketching she wants to do. I am no artist so can't
+            comment on the quality of the actual pencils, but they do the trick and she doesn't seem
+            to have to press unduly hard to get them to work. The watercolour pencil marks retain
+            good colour when 'diluted' and I think this is a really good value buy. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">vicky</name>
+          <title>Very nice present for a young artist</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I have recently purchased Derwent pencils for my 14 year old daughter who loves drawing
+            and was unsure what different types of pencils to buy for her. I bought this set as a
+            Christmas present and it comes nicely presented in a wooden box with some different
+            pencils so she can try and decide which she likes best </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">jenny waller</name>
+          <title>Nice set</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I brought this set as a present, I can only say what I think by looking at it, very
+            nice set, perfect for young artist, everything is in the set, well presented, light and
+            easy to carry, I think this present will go down well</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">LucyRice</name>
+          <title>Recommend</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I really love this and it’s great weather your a beginner artist or just want to draw.
+            I love how it comes with water color pencils as well as regular one though I would
+            suggest having more colors to choose from on both sides </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Careen Marie</name>
+          <title>Great</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Comes in a lovely box, My 15 year old was made up, as she loves water colour paint, but
+            never has tried pencils.... She said they are really good to work with, and a good make
+            too.... So, pleased all round... Would make a lovely gift, as I bought it for...... </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">michael t.</name>
+          <title>A touch dissatisfied</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Good set to get started and the case is very handy, although I felt the price was high
+            and I was a little disappointed in quality and size, I found it more for coloring or
+            watercolour as apposed to a drawing set with more of a selection of drawing and
+            sketching pencils charcoals ect. It was also smaller than expected. However that being
+            said I did enjoy using it but maybe add more drawing essentials. I didn't feel as
+            professional as I thought it would for price. But enjoyed a few scribbles anyhow. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Bazil</name>
+          <title>Nice set for the bidding artist</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Got these for my daughter (7) to stop her leaving pencils all over the place. So far so
+            good on that one. She loves them as they're a really nicely presented set and the
+            colours are strong and bright. Pencils are great quality and sharpen nicely. All can be
+            bought in smaller sets so can be replaced like for like as they're used so they should
+            stay nice for some time. </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>GTA San Andreas (Xbox 360)</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>ROCKSTAR</distributor>
+          <publisher>https://www.amazon.co.uk/</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Dogshark</name>
+          <title>Possibly the best game ever.</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Bought for the brother-in-law and his kids. What can I say thats not already been said
+            about this game. Epic, classic, awesome. Lost count how many times I've played this,
+            sold it, changed console, bought it again, played it again.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Sebastian Fernandez</name>
+          <title>Classic!</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Super happy that Xbox remade a legendary game. 100% recommended!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Andrew O'Neill</name>
+          <title>An old classic.</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>A perfect open world. An abundance of things to do. This game will suck you into
+            another world. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Dave W</name>
+          <title>Excellent service</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great son loved it fast dispatch</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">tracy</name>
+          <title>Item as decribed</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Ordered for my brother as he is a fan of these games - he loves it. Arrived on time,
+            within estimated delivery date and item as described. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">P. Marck</name>
+          <title>It's the same version as is on the Xbox Store.</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This Xbox 360 re-release is based on the HD remaster that has replaced the Original
+            Xbox edition on the Xbox Store, so that's to say, you're getting the same experience as
+            gamers who purchased the digital version at launch for £2.99. Is it good or great? It's
+            somewhere between the two considering this is was ported from the iOS to the 360, so
+            things like the menus and elsewhere will feel laggy and out of place but most of the
+            time it's fine. No issues. Anyhow, if you'd like to purchase the physical release
+            GameSeek has it for £12.99 (a pound cheaper on the Xbox Store for the digital release).
+          </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">teeside tin tin 190185</name>
+          <title>would be better if were not for the bugs!</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>It was great when it first came out 11 years ago and being re-released for the 360 was
+            worth the wait. Its as how I first remember it but its let down by bugs firstly the life
+            is a beach mission which despite hitting the buttons in tune to the music u still won't
+            get 2500 points so the only way is to hit them out of sync to progress. And secondly the
+            music tracks from the fictional radio stations skip halfway through a song to the next
+            one which is mildy irritating to say the least. Other than that its still a good game
+            with the graphics looking a bit smoother coupled with a retro hip hop outlook making it
+            still an essential purchase. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">bobknot</name>
+          <title>More bugs than an entomologist's workshop</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I really can't believe that this has scored 4 stars (I'm only giving it one because I
+            have to)... Don't get me wrong, it's a brilliant game and it's great fun to play (it's
+            GTA after all) - but that's only if and when you can play it, if you can play it at all.
+            This version of the game is absolutely full of bugs! Most you can learn to live with
+            like the lag or audio cutting out now and again, jerky cars etc. Some are tediously
+            frustrating but not the end of the world like a crash or glitch that means lost data
+            following the need to reboot. But for me, the game has just gotten to that point where
+            it is no longer playable. After 24 hours and 40% progress the game refuses to load the
+            next and only mission I can do to progress the story so I've essentially wasted £15 (and
+            a day of my life). Seriously, read the forums (I wish I had) - they're full of reports
+            of seemingly endless bugs and crashes and games becoming unplayable, save files becoming
+            corrupted and more. This version of the game was released nearly a year ago and it seems
+            there are no updates or patches available to address any of these issues. It seems to me
+            like Rockstar have ported an already buggy game from the mobile platform onto the 360
+            just to make a quick buck and by doing so have done a massive massive disservice to long
+            term fans of the franchise. I missed this on the original Xbox way back in 2005 so was
+            incredibly excited to find out this existed - but my experience has left me rather
+            bitter and I'm not sure that I would play another GTA again. My recommendation would be
+            to save yourself £15 and a lot of wasted hours, or spend that money on an original Xbox
+            and get a copy for that. Disappointment is a HUGE understatement. </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Sony PlayStation Classic Console</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>SONY</distributor>
+          <publisher>https://www.amazon.co.uk/</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Bobby Dazzler</name>
+          <title>Very dissappointed</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I was one of the first people in the UK to get hold of the very original PS1, so that
+            makes me old I know. However my memory isn't that bad, I loaded and tried to play Tekken
+            3 and Ridge Racer 4 and a few others. They did load, albeit having to wait for them to
+            load. But the frame rate, blurry pixels (no not quite my eyesight yet) no up-scaling,
+            borders on the edge no fancy rendering made my heart sink. This is terrible. GTA has
+            truly awful emulation. I know things have moved on, but the emulation was horrible. I
+            was not expecting HD remasters of every single game, but a lot of them had issues with
+            sound and frame rates and general unresponsiveness. Never have I been so disappointed.
+            Maybe I should have waited for these reviews, I definitely would not have bought it. I
+            do NOT recommend this item however tempting it sounds. Honestly you are better off
+            sourcing the originals and getting a PS3 or a PS2 that can play PS1 games.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Nathan Payne</name>
+          <title>Could have and should have been better</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The hardware itself looks amazing. It is everything you would expect a mini PlayStation
+            to look like. The controllers are also great to use. The library of games is a mixed bag
+            but PlayStation has so many great games that it would be impossible to pick games
+            everyone loved so overall I am happy with the selected games. That is where the good
+            review stops... Shoddy implementation of emulation, poor choice of PAL version games and
+            worse performance than original hardware mean this product is useless as a game console.
+            I still have original hardware and a few of the games the classic has pre-loaded. When
+            gameplay is compared it is like night and day, the classic is a horrible experience with
+            slowdowns, worse graphics and graphical bugs. Not to mention the stutter and low
+            framerates. There also audio issues on some games which are very obvious. This was 100%
+            avoidable as the hardware within the classic should be more than capable of producing an
+            experience better than original hardware, never mind just matching it! </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">J R heartly</name>
+          <title>One star for no discs?? We knew that!</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I can’t understand people complaining about 20 games, their favourite not being on
+            here, no dualshock or not being able to change discs. (It’s almost smaller than a disc).
+            If they refer to the disc changer button, that does work on games (that had multiple
+            discs) when you are up to the part in tha game where a disc change is needed.... FF7
+            etc. I read about this on the Sony website before I bought it. Also it seems people may
+            have forgotten that this is an old console and their phones are more powerful. So the
+            games are a little scruffy in parts and frames dropped on the original. The graphics
+            aren’t amazing. They weren’t in 1995. I don’t like 100% of the games. So I don’t play
+            them. I do love some of the games and these run well, look good, play well and I’m happy
+            I bought it. Like the nes and snes. Some games aren’t ones you will like. You can’t add
+            or take any away (unless it’s hacked). Like those “consoles”, it’s an emulator. It’s not
+            an actual console. It’s a piece of nostalgia. (Memberberries) And for that it does a
+            good job. Any company making one would be accused of Ripping off Nintendo. Research
+            before you buy. I bought it when it was just a few games revealed and knew their were no
+            dualshocks. It’s not perfect. But it’s fun to play the old games with old style
+            controllers. (Update) I’ve had a few comments on this review so I thought I’d respond.
+            Their comments are all correct and I thank them for posting. Analysis has shown this
+            does not perform as well as the original. In some cases 3 FPS are dropped, in other case
+            10 FPS (from 60-50). In some cases the sounds is off and the visuals blurred. Though I
+            must say without sarcasm. When I play it. I don’t play it with FAPS counting the frames
+            per second. I don’t play it side by side with the original to make comparison. I do play
+            it for the games and I still enjoy it. (Personal opinion). Statistics are good and
+            correct. But I didn’t buy it for stats. The SNES mini also drops frames , sounds are off
+            and has some colour changes to the original. Also facts by analysis by better people
+            than I. But I must admit not as noticeable as the PS classic. My point being it’s not
+            perfect, especially if compared statistically and side by side. It could have been
+            better and would have been nice if it was a perfect recreation. I just play mine. And I
+            enjoy it. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">J. Dix</name>
+          <title>Cheap cash grab</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The selection of games is subjective of course, but this system has a few glaring
+            omissions in my view, which lowered my original expectations considerably - Tomb Raider
+            and Crash Bandicoot to name just two. That’s not the biggest problem however. The system
+            looks pretty good and the build quality seems excellent but the emulation is just
+            terrible. Games from this era haven’t aged particularly well in general, but the in
+            house emulators used for the PS3 and vita run these games much better than this. The
+            games look awful and are slow and laggy - tekken 3 and twisted metal are borderline
+            unplayable. The interface is bare bones and there are no options to add filters or
+            borders around the games (this doesn’t bother me particularly but it may be worth
+            bearing in mind). There are certainly a handful of “classic” games on here, but if I
+            decide to play Tekken, Resident Evil or Final Fantasy 7, it will be on my old PS3 where
+            the performance is far superior. </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>NESCAFE Dolce Gusto Oblo Coffee Machine by Krups - Black </title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>Nescafe</distributor>
+          <publisher>https://www.amazon.co.uk/</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Darren Dean</name>
+          <title>Compact</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>This early Christmas present from my partner and I love it. Very easy to use and clean.
+            Ok there have been comments that the water tank is not that big and it isn't but it is
+            very easy to remove and fill and also makes the unit compact for small kitchens. Love
+            expresso and my partner Latte' and the coffees are delicious and will be trying more
+            from the wide range. This is a manual machine which I like as the amounts are not pre-
+            measured you just switch on and stop when you are ready which makes it easy to adjust
+            your coffee to how you like it. Extremely well priced too </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Connell F.</name>
+          <title>apart from the SHOCKING bright RED electric cord ... </title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Yes, that's right. It comes with a bright red electric cord, the kind that looks like
+            you bought an extension cord at a DIY store, and no, it probably won't go with anything
+            else in your kitchen. But if you can get past that, the cartoon instructions don't
+            provide enough info to make proper coffee. Put the pod in, way too much water, no
+            auto-shut off after sending the water through so the water keeps going and going. No
+            additional instructions or troubleshooting ideas about what to do. But the cartoon is
+            available in 20 or so languages. Also small water capacity. I expected a lot more from a
+            company like Krups. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">cfb</name>
+          <title>Very easy to use</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>On unboxing this item I thought it was a little smaller than expected. It holds around
+            2x 300ml cups worth of water just over if filled full. This machine however is great. We
+            already had the pods and glasses so just needed the machine. On the top you have a power
+            button which when pressed first time takes around 20/30 secs till it turns green
+            indicating its ready to use. There also a lever which goes left to right for hot or cold
+            water, when switched to hot it starts to pour your drink and one switch back to the
+            centre possition stops the pour, so no overspill mess to clean up. Its very easy to use
+            and makes great coffee with the pods. At this price Id highly reccomend it, especially
+            if your new to the coffee machine ownership game. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">MrTwo</name>
+          <title>A good machine which makes a great coffee.</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>My wife loves her Nescafe Dolce Gusto machine, this is her 4th over a 8 year period (or
+            so), the machine provides a good quality cup of coffee in one of many flavours/styles.
+            The capsules are available from supermarkets though some stock more flavours than
+            others, they aren't cheap but when compared to a coffee shop you get up to 16 capsules
+            for only a little more than a single shop coffee (at one of the chains). On purchasing
+            the machine we also received a voucher for £10 off the Dolce Gusto online store plus
+            each box of capsules has a code which allows you to, at present, enter a competition to
+            win a year supply of coffee (not sure how long this is valid for and whether it will be
+            updated to a new competition once it ends). The machine is well designed and looks good
+            in any time of kitchen, this machine is wider than it is deep which allows it to perch
+            on the edge somewhere, the water is added to a reservoir on the back of the machine and
+            the capsule is placed in the front. Now right at the start I said that this was our 4th
+            machine and that is partially due to one issue, this only happened on our last machine
+            (the earlier ones wore out after a decent length of life), ensure there is water in the
+            reservoir, we made the mistake of turning on the machine with very little water and then
+            walking away and it never recovered. A good machine which makes a great coffee. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Eddie M.</name>
+          <title>Great machine, but very noisy compared to other models ... </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great machine, but very noisy compared to other models (Melody) we have at work. That
+            said the coffee is great and hotter than the melody machines we have at work. It has a
+            1ltr capacitywhich gives 4 - 8 cups, depends on type of pod used. Value for money is off
+            the scale at under £40, I've seen this model advertised and on sale from £89 (ASDA) to
+            £119 (ARGOS). </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mr. D. Green</name>
+          <title>An okay product if you don't mind a warm, but not hot drink! </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>it's a reasonabel product for the price, but there are two major problems which effect
+            the quality of the drink. 1. The machine doesn't dispense a set amount of liquid, which
+            makes it difficult when you need to measure two different amounts for most drinks 2.
+            when dispense, the drink needs to consumed very quickly because it isn't very hot- we
+            have tried different ways of increasing the heat (but we shouldn't have to), these
+            include warming the cup and filling the machine up with hot water. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Rob</name>
+          <title>Don't Buy - LEAKING.</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The product was leaking water out the back after using the coffee pod to pour a cup of
+            coffee. If I wasn't lazy, I would have complained and sent the item back for a full
+            refund. That was the second machine (exact same product) I've had problems with. So I
+            went and purchased a Moccamaster coffee machine. It's more expensive but so so so much
+            better than these cheap Krups machines. Get yourself a real coffee machine folks,
+            they're just as easy and convenient to use but deliver a much better taste of
+            coffee.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Murph</name>
+          <title>Does The Job </title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Bought this for my girlfriend for Christmas as she loves her coffee! I must admit the
+            novelty seems to have worn off, as I can't remember the last time she has had a coffee
+            using this machine. Even so, anytime that I use it I do enjoy the coffee that is made
+            from it. I do enjoy having a fancy coffee every now and again using this, other than the
+            normal old fashioned way of having a coffee. Not bad at all.</p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>NASA Shuttle Launch Into Rainbow Premium Graphic T-Shirt </title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>Amazon</distributor>
+          <publisher>https://www.amazon.co.uk/</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Lizzie</name>
+          <title>Sizing too small</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Nice t-shirt but far too small, would recommend buying at least one size bigger </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Bee</name>
+          <title>Beautifully made.</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I loved this. Bought for my husband as a gift, it was worth the wait to arrive (one
+            week) as it was clearly hand printed and was brilliantly done. The colours remain vivid
+            after several washes and he loves it so made me happy. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">cerys</name>
+          <title>BEST PURCHASE EVER!!!</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>In complete awe of this tshirt! Super 80s vibes, got it in the biggest size and it's
+            super baggy and comfy! (I'm size woman's 18/20) Awesome for tucking into trousers or
+            just lazing about. Love how environmentally friendly this brand is, came without any
+            plastic and a small slip saying the way they print is even planet friendly which is just
+            awesome. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Rob A</name>
+          <title>I opened the parcel and wasn't disappointed, having cast an eye on the size of ... </title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Bought as a gift for my Brother, I opened the parcel and wasn't disappointed, having
+            cast an eye on the size of the t-shirt, it seems to be spot on. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Roo Black</name>
+          <title>Great product</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I bought this for my husband. The colours are great and the design is really eye
+            catching and the cotton is soft and feels good quality. Gave it a quick wash before he
+            wore it to remove the vinegar smell, as advised by the company. Really happy with this
+            purchase. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Nick_Swansea</name>
+          <title>Nice print, quality t-shirt</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>True to size and a very nice print. Wish I'd bought another different NASA t-shirt
+            during the Amazon Prime Day.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Linda</name>
+          <title>Great T-shirt</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>My daughter bought this for her brother’s birthday. He really likes it. It washes well
+            and is comfortable to wear.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Jasmine Williams Davies</name>
+          <title>Tiny sizes</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The size chart is horrendous, an Xl in Women's is more like a small. Very dissapointed.
+            Want my money back!! </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>The Lodge at Strichen</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>https://www.tripadvisor.co.uk/</distributor>
+          <publisher>https://www.tripadvisor.co.uk</publisher>
+          <pubPlace>U.K.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Irene M</name>
+          <title>Amazing toasties!</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Lunchtime visit following a walk round the community park. Spotlessly clean and
+            tastefully decorated with lovely artwork displayed for sale. Had coffee and a cheese and
+            haggis (yes, haggis!) toastie with side salad, slaw and couscous - gorgeous!! Friendly,
+            attentive staff. Can’t wait to return to sample the traybakes on another day! A real
+            jewel!!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Maagenta</name>
+          <title>Excellent Lunch with Fantastic Service </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Had lunch at the Lodge yesterday with a friend. My friend has special dietary needs due
+            to allergies, nothing was too much trouble. I asked for a couple of extras, again no
+            trouble at all. Waitress was lovely and could not do enough for us. The food was
+            excellent. Definitely be back - thank you for a great meal , great service and lovely
+            surroundings </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Lizzie</name>
+          <title>Food is fine but staff need improvement</title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Food I would describe as above average pub fare. What really let this place down were
+            the staff. No-one greeted us as we came in or even smiled the whole time we were there.
+            Every member of staff had a sour expression on their faces. Their attitudes made the
+            whole experience very uncomfortable. Wont be going back again anytime soon.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">_gillianjen</name>
+          <title>Afternoon tea</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Had a fantastic afternoon tea here, it was brilliant value for money and would have
+            been happy with getting half of what we got ! We were given boxes to take home all the
+            delicious fancy cakes we couldn’t eat and they were just as good when we had them later
+            on . I would definitely recommend for an afternoon tea and the service was excellent ,
+            the staff are really attentive and welcoming .</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">funkylady</name>
+          <title>Epic breakfast rolls</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Stopped here late morning to refuel for our cycle. Surprised to read some reports re
+            poor service as we had no problems and sat outside. We have had plenty breakfast rolls
+            on our cycle travels in the NE Scotland and can honestly say the sausage bap was epic!
+            The bacon and egg one my other half had was equally as good. Arrived promptly with hot
+            tea. We will be back!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">lovemeena</name>
+          <title>Ediocre bacon roll</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Sat outside the Lodge to enjoy a bacon roll and coffee(not allowed to sit in with my
+            daft dog. Shame as Strichen Community Park is so very dog friendly). My order was
+            processed albeit with some confusion because I was sitting outside (blame the
+            dog..wouldn't have happened if I had sat inside). Ordered processed and delivered in a
+            very short while. The waitress was attentive and professional...Thank you. Pity the
+            bacon roll was full of dry back bacon( tip, a little steam on the flat top goes along
+            way to making moist,flavorsome bacon). Coffee was mediocre(they serve the same brand in
+            is an establishment not 30 miles away and it is far better. Maybe your Baristas need to
+            exchange tips? Price: Way to expensive, £6.10 for coffee and a bacon buttie is close to
+            daylight robbery! Won't becoming back. Well not to the Lodge anyways. The park is a
+            perfect place to walk my dog, just a shame the "pitstop" won't be the Lodge!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">ireneh987</name>
+          <title>Coffees</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Went here for a coffee in the afternoon good coffee and a selection of Homebakes Clean
+            well presented and a lovely outlook. Staff were pleasant</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Elizabeth_perryxx</name>
+          <title>Concerned for a waitressl</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Went for our lunch this weekend and the food was great, couldn’t fault them at all for
+            that. But was slightly concerned for a waitress with glasses and blonde hair. She seemed
+            quite flustered when serving us and initially I thought it was because they were very
+            busy (which is great!) but when watching her for a few moments I did realise that
+            another blonde waitress was being quite rude to her. I don’t blame the owners what so
+            ever but in my opinion this is very unprofessional and the poor girl with the glasses
+            should be able to do her job in peace.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">ImReallyAnElf</name>
+          <title>Good menu and comfortable</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The cafe is comfortable and the menu is good - I especially recommend the specialist
+            fishcakes - with pleasant servers. However, it's got very busy since the new owners took
+            it over, so it's advisable to book a table in advance if you want to be sure of eating
+            lunch here. It's child friendly. Breakfasts are good if you're there early enough, with
+            staff willing to substitute for example the haggis for an extra egg.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">hattoncple</name>
+          <title>Disappointing</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>After reading the reviews we went for a breakfast after a walk around the park.
+            Although the service was good the food itself was average to say the least. Warm over
+            cooked bacon overcooked egg undercooked tattie scone and small portion to put it mildly.
+            Nice premises but wont be rushing back anytime soon!</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">mrrae</name>
+          <title>Poor service.</title>
+          <num type="rating" value="1">1/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Decided whilst out walking the dog that we would stop at one of the lodges outside
+            tables for coffee and cake. We ordered inside and were brought 2 paper cups of
+            completely milk drowned coffee..no sugar or stirrers offered and our cakes in a bag.
+            Surely our order could have been brought in proper cups and plates??? We would have
+            brought them back inside once finished?? Unimpressed......</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Shaun S</name>
+          <title>amazing food</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>amazing food and amazing staff easy to park and a lovey place warm food and great to
+            eat in or takeaway</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Lucy S</name>
+          <title>Outstanding food and friendly service</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>I took my 2 very young children for a walk and a spot of lunch, we felt very welcome
+            and at ease in the lodge. Staff were friendly and approachable, nothing seemed like too
+            much effort. The place was lovely and clean, considering park goers also seem to use the
+            toilets. Food was lovely and to a high standard, the children’s meals were brilliant,
+            not only did they have colourful plates but were offered their own colourful cutlery too
+            (which I have not experienced in the past) this was most definitely a thoughtful touch!
+            I will 100% be returning to the lodge for more delicious food!</p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Ercolino e Savi Montecatini T.</title>
+          <author ref="#auth"/>
+        </titleStmt>
+        <publicationStmt>
+          <distributor>https://www.expedia.com/</distributor>
+          <publisher>https://www.expedia.com/</publisher>
+          <pubPlace>I.T.</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Born digital: no previous source exists.</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <front>
+        <head>
+          <name type="author">Marcy</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Beautiful hotel in great location. Fantastic breakfast. AMAZING dinner.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Gianni</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Staff was wonderful !! Location is perfect, there are many restaurants near the hotel. The rooms were spacious, clean and the air conditioning was cold. Everything about our stay was fantastic. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">by A verified traveler</name>
+          <title>Pleasing</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Very clean and pleasant hotel, looks very smart from the roadside. Bright and clean room though could have been a little bigger Nice patio around the outside to sit and have a coffee or a drink Nice breakfast with good fruit juice and coffee</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Fran</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Very high standard throughout. All facilities including breakfast were first class. Excellent location - 5 mins from Central town station and close to town life including church. Staff are so obliging.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Lyn</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Nice staff, great restaurant and location </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">deb</name>
+          <title>Lovely hotel close to everything</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>We loved our stay, clean and comfy , staff were very friendly.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Jo</name>
+          <title>Ecellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great location-comfortable beds-very clean-Excellent staff -Huge breakfast-Very reasonable rates </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Helena</name>
+          <title>Pleasing</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Nice and reasonably priced hotel in a central location with helpful Staff.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">by A verified traveler</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>We we had a problem the first night as the AC and rig we're not working and this resulted in a sleepness night due to the outside noise from a carnival, as the windows had to be left open to cool the room. They upgraded our room that next day. They had a delicious breakfast though it was served late 730 to 1030 for touring the surrounding. We loved the area and the hotel, as it had old time charm and elegance. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">by A verified traveler </name>
+          <title>Stay here</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great location close enough to train for easy day trips to Florence or Pisa, far enough so no noise. Close to everything in Montecatini. Very friendly and accommodating staff.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Robert</name>
+          <title>Excellent</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Shame bar and restaurant were not open</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Kira</name>
+          <title>Great hotel in wonderful city</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Hotel is centrally located to spas, plazas, restaurants and shops. Hotel restaurant has food that is extremely delicious and fairly priced. Breakfast is a great mix of choices, all outstanding, especially the fresh fruit and the fresh baked goodies.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Charles</name>
+          <title>Very Nice Hotel</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The Hotel staff is very friendly and accommodating. The hotel is clean and comfortable and located near the center of the city.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Phillip</name>
+          <title>Clean with good location and friendly staff</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>The hotel was clean and deserves a 4 star rating. We had a nice size corner room with 2 large windows. The bathroom was also bigger than normal verses other hotels we've visited in Italy. The location was a 1 minute walk to the main city center. The receptionist (Catia) was very helpful with suggestions for restaurants, spas and other local activities. </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">by A verified traveler</name>
+          <title>4 star hotel ?</title>
+          <num type="rating" value="3">3/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Is this a 4 star hotel - I booked it because it had an excellent rating but this is what we found in our room on arriving - please see photos attached </p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mario M</name>
+          <title>Good front office staff, the rest terrible.</title>
+          <num type="rating" value="2">2/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>No ice machines only at bar you can find some. Internet is slow and unreliable specially if you are going to do work. Night bartender has no customer service skills. Front desk staff are helpfull and try to accomodate guest needs.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Mary</name>
+          <title>Short stay, </title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>had a wonderful few days in Montecatini and the hotel was very convenient to all amenities,no problem with parking our car ,but purchase parking ticket from hotel</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Nicole</name>
+          <title>Nothing great about it, but a good 3-Star hotel</title>
+          <num type="rating" value="5">5/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>Great location. Nice breakfast. Parking is not free, but the day pass is reasonable as long as you can find a parking space near by. The hotel staff are OK, nothing good or bad to say about them. My room was clean, but a bit dated. I used the stairs to go up/down from my room and I noticed that they don't clean them that much. I just thought that the 4-Star rating was a bit too generous for this hotel. A good 3-Star hotel.</p>
+        </div>
+      </body>
+    </text>
+    <text>
+      <front>
+        <head>
+          <name type="author">Regina and Hugo</name>
+          <title>Hotel staff helpful, excellent cleaning staff, but</title>
+          <num type="rating" value="4">4/5</num>
+        </head>
+      </front>
+      <body>
+        <div>
+          <p>We generally had a positive stay here and housekeeping staff and front desk people were pleasant and helpful. The restaurant was not particularly noteworthy even though it is stated as fine dining. The hotel obviously has no interest in running its bar which is supposed to be open at 5 for cocktail hour. Whenever we wanted to get served there, someone at the front desk had to be asked to have someone at the bar. We then waited for someone to come from the restaurant, who seemed put out to be asked. Often they couldn't make a cocktail and left immediately after waiting on us. We have stayed in hotels in the same city whose bar area was staffed and patronized better. They should just close their bar because no effort is made to operate it. </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

@@ -1,0 +1,290 @@
+Per il file corpus1.xml: 
+I venti token più frequenti escludendo la punteggiatura: 
+1)  the                                                479
+2)  and                                                278
+3)  a                                                  259
+4)  of                                                 257
+5)  to                                                 220
+6)  is                                                 191
+7)  I                                                  132
+8)  it                                                 131
+9)  in                                                 113
+10) for                                                97
+11) 's                                                 89
+12) that                                               87
+13) with                                               83
+14) The                                                83
+15) but                                                79
+16) on                                                 78
+17) this                                               74
+18) as                                                 69
+19) you                                                67
+20) are                                                67
+I venti sostantivi più frequenti: 
+1)  space                                              46
+2)  film                                               26
+3)  games                                              24
+4)  console                                            20
+5)  father                                             19
+6)  character                                          18
+7)  story                                              18
+8)  book                                               17
+9)  life                                               15
+10) plot                                               15
+11) way                                                14
+12) time                                               14
+13) lot                                                13
+14) years                                              12
+15) price                                              11
+16) screen                                             11
+17) action                                             11
+18) fan                                                11
+19) science                                            10
+20) bit                                                10
+I venti aggettivi più frequenti: 
+1)  good                                               40
+2)  great                                              28
+3)  many                                               16
+4)  other                                              14
+5)  much                                               14
+6)  original                                           14
+7)  best                                               13
+8)  first                                              13
+9)  more                                               12
+10) sci-fi                                             12
+11) little                                             10
+12) nice                                               9
+13) different                                          9
+14) same                                               9
+15) old                                                8
+16) s                                                  8
+17) better                                             8
+18) mega                                               8
+19) sure                                               7
+20) excellent                                          7
+I venti bigrammi di token più frequenti escludendo punteggiatura, articoli e congiunzioni: 
+1)  ('to', 'be')                                       19
+2)  ('this', 'is')                                     17
+3)  ('it', "'s")                                       15
+4)  ('have', 'been')                                   15
+5)  ('it', 'is')                                       14
+6)  ('I', "'m")                                        13
+7)  ('but', 'I')                                       12
+8)  ('is', 'very')                                     12
+9)  ('Ad', 'Astra')                                    12
+10) ('I', 'was')                                       11
+11) ('in', 'space')                                    11
+12) ('one', 'of')                                      11
+13) ('if', 'you')                                      10
+14) ('you', "'re")                                     10
+15) ('lot', 'of')                                      10
+16) ('If', 'you')                                      9
+17) ('It', 's')                                        9
+18) ('I', 'think')                                     9
+19) ('his', 'father')                                  9
+20) ('some', 'of')                                     9
+Le dieci Part Of Speech più frequenti: 
+1)  ('the', 'DT')                                      479
+2)  ('.', '.')                                         468
+3)  (',', ',')                                         378
+4)  ('and', 'CC')                                      278
+5)  ('a', 'DT')                                        259
+6)  ('of', 'IN')                                       257
+7)  ('to', 'TO')                                       220
+8)  ('is', 'VBZ')                                      191
+9)  ('I', 'PRP')                                       132
+10) ('it', 'PRP')                                      131
+I dieci bigrammi di POS più frequenti: 
+1)  (('.', '.'), ('The', 'DT'))                        70
+2)  (('of', 'IN'), ('the', 'DT'))                      66
+3)  (('in', 'IN'), ('the', 'DT'))                      39
+4)  (('.', '.'), ('I', 'PRP'))                         37
+5)  (('.', '.'), ('It', 'PRP'))                        33
+6)  ((',', ','), ('and', 'CC'))                        31
+7)  (('is', 'VBZ'), ('a', 'DT'))                       27
+8)  (('on', 'IN'), ('the', 'DT'))                      27
+9)  (('and', 'CC'), ('the', 'DT'))                     22
+10) ((')', ')'), ('.', '.'))                           22
+I dieci trigrammi di POS più frequenti: 
+1)  (('a', 'DT'), ('lot', 'NN'), ('of', 'IN'))         10
+2)  (('.', '.'), ('If', 'IN'), ('you', 'PRP'))         8
+3)  (('.', '.'), ('It', 'PRP'), ("'s", 'VBZ'))         8
+4)  (('some', 'DT'), ('of', 'IN'), ('the', 'DT'))      7
+5)  (('.', '.'), ('This', 'DT'), ('is', 'VBZ'))        6
+6)  (('on', 'IN'), ('the', 'DT'), ('console', 'NN'))   6
+7)  (('.', '.'), ('It', 'PRP'), ('’', 'VBD'))          5
+8)  (('.', '.'), ('The', 'DT'), ('story', 'NN'))       5
+9)  (('a', 'DT'), ('bit', 'NN'), ('of', 'IN'))         5
+10) (('would', 'MD'), ('have', 'VB'), ('been', 'VBN')) 5
+In ordine decrescente i 20 bigrammi composti da aggettivo e sostantivo con frequenza per token > 2: 
+---Ordinati per frequenza di bigramma---
+[[Parola1,frequenzaP1,Parola2,frequenzaP2],FreqBigramma] - Probabilità - ForzaAssociativa
+[['space', 46, 'station', 8], 7] - 0.000641 - 7.6982
+[['mega', 8, 'drive', 6], 6] - 0.000550 - 10.4144
+[['science', 10, 'fiction', 7], 5] - 0.000458 - 9.6071
+[['sci', 5, 'fi', 5], 5] - 0.000458 - 11.0925
+[['character', 18, 'study', 4], 4] - 0.000366 - 9.2445
+[['power', 9, 'surges', 6], 4] - 0.000366 - 9.6595
+[['black', 4, 'friday', 3], 3] - 0.000275 - 11.4144
+[['deep', 3, 'space', 46], 3] - 0.000275 - 7.8909
+[['big', 6, 'fan', 11], 3] - 0.000275 - 8.9550
+[['plot', 15, 'twists', 3], 3] - 0.000275 - 9.5075
+[['long', 10, 'time', 14], 3] - 0.000275 - 7.8701
+[['mini', 8, 'console', 21], 3] - 0.000275 - 7.6071
+[['early', 4, 'black', 4], 2] - 0.000183 - 10.4144
+[['touch', 3, 'screen', 12], 2] - 0.000183 - 9.2445
+[['good', 41, 'price', 11], 2] - 0.000183 - 5.5974
+[['great', 28, 'price', 11], 2] - 0.000183 - 6.1476
+[['good', 41, 'quality', 6], 2] - 0.000183 - 6.4719
+[['action', 11, 'sequences', 3], 2] - 0.000183 - 9.3700
+[['intelligent', 5, 'life', 15], 2] - 0.000183 - 8.1856
+[['near', 3, 'future', 7], 2] - 0.000183 - 10.0221
+
+Le due frasi con probabilità più alta: 
+Markov ordine 0: This is an interesting story. 3.492924569171219e-15
+Markov ordine 1: I have stayed here many times. 9.385272180401448e-08
+Per il file corpus2.xml: 
+I venti token più frequenti escludendo la punteggiatura: 
+1)  the                                                233
+2)  and                                                192
+3)  a                                                  154
+4)  to                                                 146
+5)  I                                                  114
+6)  it                                                 98
+7)  is                                                 85
+8)  of                                                 77
+9)  for                                                75
+10) was                                                61
+11) in                                                 53
+12) this                                               51
+13) as                                                 46
+14) on                                                 41
+15) with                                               40
+16) are                                                39
+17) that                                               39
+18) but                                                36
+19) have                                               35
+20) so                                                 33
+I venti sostantivi più frequenti: 
+1)  coffee                                             26
+2)  games                                              23
+3)  machine                                            21
+4)  water                                              16
+5)  t                                                  14
+6)  game                                               14
+7)  staff                                              13
+8)  time                                               12
+9)  hotel                                              12
+10) set                                                11
+11) pencils                                            10
+12) quality                                            9
+13) seeds                                              8
+14) size                                               8
+15) nothing                                            7
+16) day                                                7
+17) money                                              7
+18) food                                               7
+19) breakfast                                          7
+20) bacon                                              7
+I venti aggettivi più frequenti: 
+1)  good                                               27
+2)  great                                              21
+3)  ’                                                  12
+4)  original                                           11
+5)  old                                                10
+6)  easy                                               9
+7)  clean                                              9
+8)  other                                              8
+9)  few                                                8
+10) different                                          7
+11) small                                              7
+12) same                                               7
+13) little                                             7
+14) better                                             7
+15) smaller                                            6
+16) more                                               6
+17) happy                                              6
+18) much                                               5
+19) first                                              5
+20) nice                                               5
+I venti bigrammi di token più frequenti escludendo punteggiatura, articoli e congiunzioni: 
+1)  ('this', 'is')                                     9
+2)  ('to', 'be')                                       8
+3)  ('for', 'my')                                      8
+4)  ('it', 'is')                                       8
+5)  ('it', 'was')                                      8
+6)  ('easy', 'to')                                     7
+7)  ('don', 't')                                       6
+8)  ('I', 'bought')                                    6
+9)  ('bought', 'it')                                   6
+10) ('it', "'s")                                       6
+11) ('if', 'you')                                      6
+12) ('you', 'can')                                     6
+13) ('play', 'it')                                     6
+14) ('to', 'use')                                      6
+15) ('have', 'been')                                   6
+16) ('to', 'get')                                      5
+17) ('smaller', 'than')                                5
+18) ('I', 'thought')                                   5
+19) ('you', 'are')                                     5
+20) ('to', 'do')                                       5
+Le dieci Part Of Speech più frequenti: 
+1)  ('.', '.')                                         286
+2)  ('the', 'DT')                                      233
+3)  ('and', 'CC')                                      192
+4)  (',', ',')                                         160
+5)  ('a', 'DT')                                        154
+6)  ('to', 'TO')                                       146
+7)  ('I', 'PRP')                                       114
+8)  ('it', 'PRP')                                      98
+9)  ('is', 'VBZ')                                      85
+10) ('of', 'IN')                                       77
+I dieci bigrammi di POS più frequenti: 
+1)  (('.', '.'), ('I', 'PRP'))                         32
+2)  (('.', '.'), ('The', 'DT'))                        30
+3)  (('of', 'IN'), ('the', 'DT'))                      18
+4)  (('.', '.'), ('It', 'PRP'))                        16
+5)  (('and', 'CC'), ('the', 'DT'))                     16
+6)  ((',', ','), ('but', 'CC'))                        14
+7)  (('on', 'IN'), ('the', 'DT'))                      13
+8)  (('and', 'CC'), ('a', 'DT'))                       13
+9)  ((')', ')'), ('.', '.'))                           13
+10) (('’', 'JJ'), ('t', 'NN'))                         12
+I dieci trigrammi di POS più frequenti: 
+1)  (('don', 'VBP'), ('’', 'JJ'), ('t', 'NN'))         6
+2)  (('I', 'PRP'), ('don', 'VBP'), ('’', 'JJ'))        5
+3)  (('I', 'PRP'), ('bought', 'VBD'), ('it', 'PRP'))   4
+4)  (('.', '.'), ('I', 'PRP'), ('do', 'VBP'))          4
+5)  (('.', '.'), ('I', 'PRP'), ('don', 'VBP'))         4
+6)  (('.', '.'), ('It', 'PRP'), ("'s", 'VBZ'))         3
+7)  (('to', 'TO'), ('do', 'VB'), ('.', '.'))           3
+8)  (('.', '.'), ('I', 'PRP'), ('bought', 'VBD'))      3
+9)  (('I', 'PRP'), ('thought', 'VBD'), ('it', 'PRP'))  3
+10) (('one', 'CD'), ('of', 'IN'), ('the', 'DT'))       3
+In ordine decrescente i 20 bigrammi composti da aggettivo e sostantivo con frequenza per token > 2: 
+---Ordinati per frequenza di bigramma---
+[[Parola1,frequenzaP1,Parola2,frequenzaP2],FreqBigramma] - Probabilità - ForzaAssociativa
+[['original', 11, 'hardware', 5], 3] - 0.000488 - 8.3900
+[['coffee', 26, 'machine', 21], 3] - 0.000488 - 5.0786
+[['much', 9, 'better', 9], 3] - 0.000488 - 7.8315
+[['different', 7, 'amounts', 3], 2] - 0.000325 - 9.1941
+[['great', 21, 'quality', 9], 2] - 0.000325 - 6.0241
+[['year', 5, 'old', 10], 2] - 0.000325 - 7.9425
+[['original', 11, 'Xbox', 7], 2] - 0.000325 - 7.3196
+[['great', 21, 'coffee', 26], 2] - 0.000325 - 4.4936
+[['good', 27, 'quality', 9], 2] - 0.000325 - 5.6616
+[['afternoon', 3, 'tea', 3], 2] - 0.000325 - 10.4164
+[['front', 3, 'desk', 3], 2] - 0.000325 - 10.4164
+[['most', 5, 'people', 6], 1] - 0.000163 - 7.6795
+[['day', 7, 'present', 6], 1] - 0.000163 - 7.1941
+[['same', 7, 'soil', 4], 1] - 0.000163 - 7.7790
+[['different', 7, 'seeds', 8], 1] - 0.000163 - 6.7790
+[['same', 7, 'time', 12], 1] - 0.000163 - 6.1941
+[['normal', 4, 'soil', 4], 1] - 0.000163 - 8.5864
+[['colour', 4, 'pencils', 11], 1] - 0.000163 - 7.1269
+[['water', 16, 'colours', 4], 1] - 0.000163 - 6.5864
+[['first', 7, 'set', 11], 1] - 0.000163 - 6.3196
+
+Le due frasi con probabilità più alta: 
+Markov ordine 0: It's definitely the seeds. 9.389056040950761e-15
+Markov ordine 1: It’s not perfect. 6.25793437632761e-07
