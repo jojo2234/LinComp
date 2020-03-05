@@ -1,10 +1,10 @@
 # LinComp
 Computational linguistics project for university. The file named readme is written in Italian.
 
-##Informazioni
+## Informazioni
 Scopo del progetto portare a termine le istruzioni contenute nel file pdf.
 
-##Struttura delle directory
+## Struttura delle directory
 ```
 corpus1.xml: Un corpus di recensioni in lingua inglese in formato XML codificato con standard TEI.
 corpus2.xml: Un altro corpus di recensioni in lingua inglese in formato XML codificato con standard TEI.
@@ -16,7 +16,7 @@ programma2.py: Il secondo programma scritto in python
 tei_corpus.dtd: La document type definition in standard TEI
 ```
 
-##Note
+## Note
 ```
 Programmi avviati da cmd su Windows, con Python versione 3.8 (32bit)
 python programma1.py corpus1.xml corpus2.xml
