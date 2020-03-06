@@ -2,7 +2,7 @@
 Computational linguistics project for university. The file named readme is written in Italian.
 
 ## Informazioni
-Scopo del progetto portare a termine le istruzioni contenute nel file pdf.
+Scopo del progetto portare a termine le istruzioni contenute nel file pdf. Realizzare due programmi in Python che facciano uso dei moduli presenti in Natural Language Toolkit.
 
 ## Struttura delle directory
 ```
