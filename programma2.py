@@ -176,9 +176,10 @@ def twentyBigramAS2(simTxt):
     for i in range(0,20):
         prob = (ordinati[i][0][1]/len(tokens))*(ordinati[i][1]/ordinati[i][0][1])#Br(vA,vB)->P(A∩B)=P(A)*P(B|A)=>(freq(vA)/totPar)*(freq(vA,vB)/freq(vA))
         mi = math.log2((ordinati[i][1]/len(list(nltk.bigrams(tokens))))/((ordinati[i][0][1]/len(tokens))*(ordinati[i][0][3]/len(tokens))))#log(p(v1,v2)/p(v1)*p(v2)) Ex. dove v1="il" e v2="cane"
+        lmi = (ordinati[i][1] * mi) #Aggiornato il 15 giugno 2020 viene richiesta la Local Mutual Information uguale a (freq(v1,v2)*mi(v1,v2))
         #mi = log2[(FreqBigrammi/TotBigrammi)/(FreqAgg/TotParoleNelCorpus)*(FreqSost/TotParoleNelCorpus)]
         #prob = (FreqAgg/totWord)*(FreqBigr/FreqAgg)
-        toPrint += (str(ordinati[i])+" - "+str("%.6f"%prob)+" - "+str("%.4f"%mi)+"\n")
+        toPrint += (str(ordinati[i])+" - "+str("%.6f"%prob)+" - "+str("%.4f"%lmi)+"\n")
     return toPrint
 
 #Le due frasi con probabilità più alta
