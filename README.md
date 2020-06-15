@@ -17,14 +17,14 @@ tei_corpus.dtd: La document type definition in standard TEI
 ```
 
 ## Risoluzione dipendenze
-Da terminale (o cmd su Windows) dare
+Da terminale (o cmd su Windows) dare:
 ```
 pip install nltk
 python
 import nltk
 nltk.download()
 ```
-Nella finestra che si apre per evitare problemi consiglio di installare tutti i pacchetti così potrete utilizzarli anche con altri software.
+Nella finestra che si apre consiglio di installare tutti i pacchetti. Se volete risparmiare spazio, installate solo quelli richiesti.
 
 ## Note
 ```
