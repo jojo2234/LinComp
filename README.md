@@ -16,7 +16,7 @@ programma2.py: Il secondo programma scritto in python
 tei_corpus.dtd: La document type definition in standard TEI
 ```
 
-##Risoluzione dipendenze
+## Risoluzione dipendenze
 Da terminale (o cmd su Windows) dare
 ```
 pip install nltk
