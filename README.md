@@ -16,6 +16,16 @@ programma2.py: Il secondo programma scritto in python
 tei_corpus.dtd: La document type definition in standard TEI
 ```
 
+##Risoluzione dipendenze
+Da terminale (o cmd su Windows) dare
+```
+pip install nltk
+python
+import nltk
+nltk.download()
+```
+Nella finestra che si apre per evitare problemi consiglio di installare tutti i pacchetti così potrete utilizzarli anche con altri software.
+
 ## Note
 ```
 Programmi avviati da cmd su Windows, con Python versione 3.8 (32bit)
