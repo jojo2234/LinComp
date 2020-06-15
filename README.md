@@ -24,7 +24,11 @@ python
 import nltk
 nltk.download()
 ```
-Nella finestra che si apre consiglio di installare tutti i pacchetti. Se volete risparmiare spazio, installate solo quelli richiesti.
+Nella finestra che si apre consiglio di installare tutti i pacchetti. Se volete risparmiare spazio, installate solo quelli richiesti. A questo punto scrivere:
+```
+exit()
+```
+Si è pronti ad avviare i programmi come scritto nelle note.
 
 ## Note
 ```
